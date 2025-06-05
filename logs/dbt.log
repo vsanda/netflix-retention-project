@@ -1,0 +1,92 @@
+[0m11:51:40.028253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077843a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1108e7df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1108e7ac0>]}
+
+
+============================== 11:51:40.030860 | d8f8efda-82aa-48b9-87d6-587373116885 ==============================
+[0m11:51:40.030860 [info ] [MainThread]: Running with dbt=1.9.6
+[0m11:51:40.031206 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/vionasanda/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:51:40.745445 [error] [MainThread]: Encountered an error:
+
+[0m11:51:40.766983 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/dbt/cli/requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/dbt/cli/requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/dbt/cli/main.py", line 477, in init
+    results = task.run()
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/dbt/task/init.py", line 324, in run
+    project_name = self.get_valid_project_name()
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/dbt/task/init.py", line 278, in get_valid_project_name
+    name = click.prompt("Enter a name for your project (letters, digits, underscore)")
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/click/termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/click/termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m11:51:40.771216 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 0.78426415, "process_in_blocks": "0", "process_kernel_time": 0.139964, "process_mem_max_rss": "95207424", "process_out_blocks": "0", "process_user_time": 0.841192}
+[0m11:51:40.771783 [debug] [MainThread]: Command `dbt init` failed at 11:51:40.771668 after 0.78 seconds
+[0m11:51:40.772242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077843a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1102b8130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11092dee0>]}
+[0m11:51:40.772675 [debug] [MainThread]: Flushing usage events
+[0m11:51:40.940367 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:51:54.819766 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d713d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ee7e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ee7af0>]}
+
+
+============================== 11:51:54.822405 | 8e2d1b67-5a3d-4bd7-b80b-6b00a8b9b2a4 ==============================
+[0m11:51:54.822405 [info ] [MainThread]: Running with dbt=1.9.6
+[0m11:51:54.822728 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/vionasanda/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m11:52:03.885421 [error] [MainThread]: Encountered an error:
+
+[0m11:52:03.908054 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/dbt/cli/requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/dbt/cli/requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/dbt/cli/main.py", line 477, in init
+    results = task.run()
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/dbt/task/init.py", line 324, in run
+    project_name = self.get_valid_project_name()
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/dbt/task/init.py", line 278, in get_valid_project_name
+    name = click.prompt("Enter a name for your project (letters, digits, underscore)")
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/click/termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/click/termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m11:52:03.911899 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 9.134076, "process_in_blocks": "0", "process_kernel_time": 0.100896, "process_mem_max_rss": "92372992", "process_out_blocks": "0", "process_user_time": 0.770472}
+[0m11:52:03.912619 [debug] [MainThread]: Command `dbt init` failed at 11:52:03.912494 after 9.13 seconds
+[0m11:52:03.913128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d713d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057923d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f2eee0>]}
+[0m11:52:03.913612 [debug] [MainThread]: Flushing usage events
+[0m11:52:04.114337 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:27:14.383616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058fe160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106752040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106752ca0>]}
+
+
+============================== 15:27:14.386401 | fbf67167-312f-4ecf-9917-a8e9fca32dea ==============================
+[0m15:27:14.386401 [info ] [MainThread]: Running with dbt=1.9.6
+[0m15:27:14.386742 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'dbt_profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt clean', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:27:14.387226 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/vionasanda/Projects/netflix-retention-project/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:27:14.388728 [debug] [MainThread]: Resource report: {"command_name": "clean", "command_success": false, "command_wall_clock_time": 0.047927, "process_in_blocks": "0", "process_kernel_time": 0.079702, "process_mem_max_rss": "92061696", "process_out_blocks": "0", "process_user_time": 0.699312}
+[0m15:27:14.388980 [debug] [MainThread]: Command `dbt clean` failed at 15:27:14.388925 after 0.05 seconds
+[0m15:27:14.389180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058fe160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10674b580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10674b6a0>]}
+[0m15:27:14.389381 [debug] [MainThread]: Flushing usage events
+[0m15:27:14.636756 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:28:19.293397 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e5a1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076aab80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076aad60>]}
+
+
+============================== 15:28:19.296284 | c00ce0cd-9fdc-4308-9df0-58fb1b10a787 ==============================
+[0m15:28:19.296284 [info ] [MainThread]: Running with dbt=1.9.6
+[0m15:28:19.296644 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'dbt_profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt clean', 'send_anonymous_usage_stats': 'True'}
+[0m15:28:19.297120 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/vionasanda/Projects/netflix-retention-project/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:28:19.298620 [debug] [MainThread]: Resource report: {"command_name": "clean", "command_success": false, "command_wall_clock_time": 0.04748475, "process_in_blocks": "0", "process_kernel_time": 0.114627, "process_mem_max_rss": "92323840", "process_out_blocks": "0", "process_user_time": 0.696514}
+[0m15:28:19.298884 [debug] [MainThread]: Command `dbt clean` failed at 15:28:19.298827 after 0.05 seconds
+[0m15:28:19.299166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e5a1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076a5250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076a5190>]}
+[0m15:28:19.299371 [debug] [MainThread]: Flushing usage events
+[0m15:28:19.419210 [debug] [MainThread]: An error was encountered while trying to flush usage events

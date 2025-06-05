@@ -1,0 +1,1001 @@
+user_id,signup_date,country,device_type,plan_type
+1,2024-11-20,French Southern Territories,tablet,premium
+2,2025-04-19,Heard Island and McDonald Islands,tablet,basic
+3,2024-11-11,Saint Martin,tablet,premium
+4,2024-12-16,Germany,web,standard
+5,2024-09-07,United States Minor Outlying Islands,mobile,premium
+6,2024-07-18,Madagascar,mobile,basic
+7,2025-04-02,Japan,mobile,standard
+8,2025-02-13,Lebanon,tablet,premium
+9,2025-03-02,Gabon,smart_tv,premium
+10,2024-07-14,Madagascar,mobile,premium
+11,2025-03-04,San Marino,mobile,premium
+12,2024-09-19,Syrian Arab Republic,tablet,standard
+13,2025-05-13,Poland,tablet,standard
+14,2025-05-03,Saint Martin,tablet,standard
+15,2025-04-16,Heard Island and McDonald Islands,tablet,basic
+16,2025-01-12,San Marino,tablet,basic
+17,2025-05-10,Costa Rica,tablet,premium
+18,2024-10-12,Mexico,smart_tv,basic
+19,2025-04-12,Hungary,tablet,basic
+20,2025-01-26,Saint Helena,web,basic
+21,2024-06-08,Albania,web,standard
+22,2024-08-15,France,tablet,basic
+23,2025-04-16,Tonga,tablet,standard
+24,2025-04-12,Turks and Caicos Islands,tablet,basic
+25,2025-05-12,Eritrea,web,basic
+26,2024-09-23,Aruba,tablet,premium
+27,2025-04-30,Azerbaijan,web,premium
+28,2025-04-30,Mauritius,mobile,premium
+29,2024-09-26,Portugal,tablet,basic
+30,2024-10-08,Qatar,mobile,premium
+31,2025-01-25,British Indian Ocean Territory (Chagos Archipelago),tablet,premium
+32,2024-11-01,Brazil,tablet,standard
+33,2024-07-24,Tajikistan,web,premium
+34,2024-09-10,Thailand,smart_tv,standard
+35,2024-11-15,Hong Kong,tablet,standard
+36,2025-01-01,Saint Martin,smart_tv,premium
+37,2025-01-04,Tanzania,mobile,premium
+38,2024-10-19,Ukraine,smart_tv,basic
+39,2024-08-31,Antarctica (the territory South of 60 deg S),tablet,basic
+40,2024-08-10,Costa Rica,web,standard
+41,2024-11-03,American Samoa,web,standard
+42,2024-08-06,Korea,smart_tv,premium
+43,2025-04-01,Uganda,smart_tv,premium
+44,2024-06-07,Moldova,mobile,premium
+45,2024-07-26,Morocco,tablet,standard
+46,2024-06-29,Zambia,tablet,standard
+47,2024-12-08,Ethiopia,tablet,standard
+48,2025-02-14,Portugal,smart_tv,standard
+49,2024-07-10,Guam,smart_tv,standard
+50,2025-01-10,Poland,tablet,standard
+51,2025-04-02,Ukraine,web,premium
+52,2025-01-18,United Arab Emirates,tablet,premium
+53,2024-10-23,Czech Republic,tablet,standard
+54,2025-03-02,Bahrain,mobile,basic
+55,2024-12-30,British Indian Ocean Territory (Chagos Archipelago),mobile,premium
+56,2024-12-28,Australia,tablet,basic
+57,2025-03-12,Gibraltar,mobile,standard
+58,2025-02-09,Sierra Leone,smart_tv,standard
+59,2025-03-28,French Polynesia,web,premium
+60,2025-02-08,Ethiopia,smart_tv,standard
+61,2025-05-20,Belize,mobile,standard
+62,2025-03-23,Niger,mobile,basic
+63,2024-11-30,China,mobile,standard
+64,2025-01-27,Afghanistan,smart_tv,standard
+65,2025-01-17,Bhutan,mobile,basic
+66,2025-04-22,Bolivia,mobile,standard
+67,2025-03-31,Lao People's Democratic Republic,smart_tv,premium
+68,2025-05-24,United States of America,smart_tv,basic
+69,2025-03-19,Kyrgyz Republic,tablet,basic
+70,2025-04-17,Seychelles,mobile,basic
+71,2024-07-14,Norfolk Island,tablet,standard
+72,2025-02-08,Saint Martin,mobile,standard
+73,2025-05-09,Honduras,mobile,basic
+74,2024-10-19,Oman,smart_tv,basic
+75,2024-10-20,Falkland Islands (Malvinas),tablet,standard
+76,2024-07-15,Isle of Man,tablet,standard
+77,2024-08-16,Liechtenstein,smart_tv,basic
+78,2025-02-16,Hungary,mobile,premium
+79,2024-08-29,Cyprus,mobile,premium
+80,2024-08-23,Uzbekistan,web,standard
+81,2025-04-26,Montenegro,smart_tv,standard
+82,2025-01-23,Australia,smart_tv,basic
+83,2024-07-23,Kenya,tablet,basic
+84,2024-06-08,Gabon,web,basic
+85,2025-02-03,Australia,web,premium
+86,2024-11-29,Cote d'Ivoire,smart_tv,basic
+87,2024-10-22,Congo,tablet,premium
+88,2024-08-09,Azerbaijan,smart_tv,premium
+89,2025-04-15,Niue,smart_tv,basic
+90,2024-12-29,Bermuda,web,premium
+91,2024-11-25,Djibouti,web,basic
+92,2025-02-17,Nicaragua,web,basic
+93,2025-01-05,Indonesia,mobile,basic
+94,2024-12-18,Benin,web,premium
+95,2024-06-30,Ghana,mobile,premium
+96,2025-03-30,Sao Tome and Principe,tablet,premium
+97,2024-09-25,Brunei Darussalam,tablet,standard
+98,2024-12-10,Hong Kong,smart_tv,basic
+99,2024-09-18,Austria,web,premium
+100,2025-05-27,Chad,web,basic
+101,2024-08-31,Kazakhstan,mobile,premium
+102,2024-10-11,Senegal,smart_tv,standard
+103,2024-12-17,Tajikistan,web,premium
+104,2024-06-16,Slovenia,tablet,basic
+105,2025-03-25,Nepal,smart_tv,standard
+106,2024-06-23,Vietnam,tablet,basic
+107,2025-03-20,Uruguay,web,standard
+108,2024-08-31,Libyan Arab Jamahiriya,web,basic
+109,2024-12-18,Brunei Darussalam,mobile,standard
+110,2024-06-26,Chad,mobile,premium
+111,2025-05-10,Saudi Arabia,smart_tv,premium
+112,2024-11-23,Niger,smart_tv,basic
+113,2025-02-02,Ecuador,smart_tv,standard
+114,2025-02-01,Burkina Faso,tablet,premium
+115,2025-01-05,Malaysia,tablet,premium
+116,2024-07-13,Chile,mobile,premium
+117,2024-11-02,Malaysia,web,basic
+118,2024-09-01,Bulgaria,mobile,basic
+119,2024-09-20,Niger,web,premium
+120,2024-12-08,Sweden,tablet,premium
+121,2024-09-20,Chile,mobile,premium
+122,2025-04-13,Dominican Republic,tablet,premium
+123,2024-11-06,Singapore,mobile,basic
+124,2025-04-20,Christmas Island,web,standard
+125,2024-09-02,Uganda,smart_tv,standard
+126,2025-05-26,United States Minor Outlying Islands,tablet,premium
+127,2024-07-08,Lao People's Democratic Republic,tablet,standard
+128,2024-07-19,French Polynesia,tablet,standard
+129,2024-10-24,Mauritius,mobile,basic
+130,2025-02-01,Cocos (Keeling) Islands,web,premium
+131,2025-04-25,Somalia,web,standard
+132,2024-12-01,Zambia,web,premium
+133,2024-08-23,Qatar,smart_tv,basic
+134,2024-10-13,Central African Republic,web,premium
+135,2024-08-24,Svalbard & Jan Mayen Islands,web,premium
+136,2024-08-10,Tajikistan,tablet,basic
+137,2025-01-12,Myanmar,web,standard
+138,2025-02-10,Mauritius,tablet,standard
+139,2025-01-15,Micronesia,tablet,standard
+140,2024-08-08,Costa Rica,mobile,basic
+141,2025-01-25,Reunion,smart_tv,basic
+142,2024-06-21,Sweden,mobile,premium
+143,2025-03-16,Angola,tablet,basic
+144,2024-11-01,French Polynesia,web,premium
+145,2024-09-13,Saint Kitts and Nevis,tablet,basic
+146,2024-10-18,Saint Pierre and Miquelon,web,standard
+147,2025-01-18,Saint Helena,tablet,basic
+148,2025-06-03,Korea,tablet,basic
+149,2025-01-29,Moldova,tablet,standard
+150,2024-09-08,Korea,smart_tv,basic
+151,2024-09-22,Pakistan,web,basic
+152,2024-07-28,Niger,mobile,standard
+153,2025-03-02,San Marino,smart_tv,basic
+154,2024-06-13,British Indian Ocean Territory (Chagos Archipelago),tablet,standard
+155,2025-05-23,British Indian Ocean Territory (Chagos Archipelago),tablet,standard
+156,2024-12-04,Germany,mobile,basic
+157,2024-11-17,Tunisia,smart_tv,basic
+158,2025-04-03,Norway,tablet,standard
+159,2024-12-05,Uganda,smart_tv,standard
+160,2025-04-12,Mozambique,web,standard
+161,2025-03-11,Tokelau,tablet,basic
+162,2025-05-10,Saudi Arabia,web,premium
+163,2024-11-13,French Southern Territories,tablet,standard
+164,2024-07-24,Spain,tablet,standard
+165,2025-04-04,Saint Pierre and Miquelon,tablet,standard
+166,2025-01-17,Hungary,tablet,premium
+167,2025-04-22,Somalia,web,standard
+168,2025-01-12,Romania,smart_tv,standard
+169,2024-10-10,Gibraltar,smart_tv,premium
+170,2025-01-18,Djibouti,smart_tv,basic
+171,2025-01-10,Mali,web,standard
+172,2024-07-11,British Virgin Islands,web,premium
+173,2025-02-24,Austria,smart_tv,premium
+174,2024-08-31,Thailand,tablet,basic
+175,2025-01-07,Guyana,web,standard
+176,2024-07-06,Benin,smart_tv,standard
+177,2024-06-23,Guernsey,tablet,premium
+178,2024-12-16,Brunei Darussalam,smart_tv,basic
+179,2025-01-27,Trinidad and Tobago,smart_tv,basic
+180,2024-11-23,Belize,mobile,premium
+181,2024-10-27,Luxembourg,smart_tv,basic
+182,2024-06-29,Uganda,mobile,premium
+183,2024-10-25,Ireland,smart_tv,premium
+184,2025-02-24,Somalia,mobile,premium
+185,2024-07-06,Tuvalu,web,premium
+186,2025-05-18,Estonia,mobile,premium
+187,2024-09-22,Monaco,tablet,basic
+188,2024-11-26,Netherlands Antilles,mobile,premium
+189,2025-04-09,Mauritius,tablet,premium
+190,2025-02-04,Andorra,web,standard
+191,2024-12-28,Mali,tablet,basic
+192,2024-10-23,American Samoa,web,basic
+193,2024-10-19,Barbados,mobile,standard
+194,2024-07-06,Austria,tablet,premium
+195,2025-01-16,Netherlands Antilles,mobile,basic
+196,2025-04-24,Burkina Faso,smart_tv,basic
+197,2025-04-01,Mauritius,mobile,premium
+198,2024-09-25,Swaziland,mobile,basic
+199,2024-12-22,Bouvet Island (Bouvetoya),web,premium
+200,2024-06-13,United States Minor Outlying Islands,tablet,premium
+201,2025-04-29,Nauru,web,basic
+202,2024-11-26,Jersey,mobile,premium
+203,2024-10-24,Antigua and Barbuda,tablet,premium
+204,2024-09-27,Cuba,web,premium
+205,2024-08-05,Palestinian Territory,mobile,standard
+206,2025-04-15,Singapore,mobile,standard
+207,2025-02-13,Korea,tablet,premium
+208,2025-03-19,Suriname,web,basic
+209,2024-09-08,New Zealand,mobile,basic
+210,2024-08-17,Taiwan,smart_tv,basic
+211,2025-01-05,Cameroon,smart_tv,premium
+212,2024-09-24,Singapore,web,premium
+213,2025-03-16,Madagascar,tablet,standard
+214,2025-03-10,Madagascar,tablet,premium
+215,2025-05-03,Germany,smart_tv,standard
+216,2025-05-20,Serbia,web,basic
+217,2024-09-17,Lesotho,web,premium
+218,2024-06-11,Venezuela,smart_tv,standard
+219,2025-02-08,Seychelles,smart_tv,standard
+220,2024-06-11,Cuba,tablet,standard
+221,2024-07-15,Saint Helena,mobile,premium
+222,2025-01-07,Australia,smart_tv,premium
+223,2025-06-01,Azerbaijan,web,standard
+224,2024-09-30,Christmas Island,smart_tv,basic
+225,2024-12-27,Spain,mobile,standard
+226,2025-01-08,American Samoa,mobile,standard
+227,2025-05-07,Iraq,mobile,premium
+228,2024-06-09,Falkland Islands (Malvinas),mobile,premium
+229,2024-07-19,Myanmar,mobile,premium
+230,2024-06-04,Kazakhstan,web,premium
+231,2024-12-06,Papua New Guinea,mobile,standard
+232,2025-05-05,Armenia,tablet,standard
+233,2025-05-16,Svalbard & Jan Mayen Islands,tablet,standard
+234,2025-05-04,French Polynesia,tablet,basic
+235,2025-03-06,French Guiana,tablet,premium
+236,2024-10-18,Samoa,mobile,premium
+237,2025-03-10,Dominica,web,basic
+238,2024-08-14,Yemen,web,basic
+239,2024-07-18,Qatar,web,standard
+240,2024-07-14,Angola,web,basic
+241,2024-09-30,Falkland Islands (Malvinas),web,standard
+242,2024-06-23,Benin,mobile,premium
+243,2025-04-10,Pitcairn Islands,web,premium
+244,2024-08-23,Hungary,web,premium
+245,2025-05-03,British Indian Ocean Territory (Chagos Archipelago),smart_tv,basic
+246,2025-01-12,Svalbard & Jan Mayen Islands,smart_tv,basic
+247,2024-08-23,Gibraltar,web,standard
+248,2025-05-31,United States Virgin Islands,web,standard
+249,2024-11-26,Somalia,tablet,premium
+250,2025-04-20,Vanuatu,mobile,standard
+251,2025-03-19,Northern Mariana Islands,smart_tv,standard
+252,2024-09-14,Iraq,tablet,standard
+253,2025-03-17,Niue,tablet,standard
+254,2025-02-25,Guinea-Bissau,web,standard
+255,2024-07-25,United States Minor Outlying Islands,mobile,premium
+256,2025-04-27,Croatia,smart_tv,standard
+257,2024-10-23,Montenegro,smart_tv,premium
+258,2025-04-11,Antigua and Barbuda,mobile,premium
+259,2025-02-05,Sao Tome and Principe,smart_tv,premium
+260,2024-09-13,Costa Rica,smart_tv,basic
+261,2025-05-15,Antigua and Barbuda,mobile,standard
+262,2024-09-04,Switzerland,mobile,standard
+263,2024-07-06,Rwanda,smart_tv,premium
+264,2024-06-16,Fiji,smart_tv,basic
+265,2025-04-18,Myanmar,tablet,standard
+266,2024-06-11,Belgium,smart_tv,standard
+267,2025-02-08,Northern Mariana Islands,mobile,basic
+268,2024-06-12,Central African Republic,mobile,basic
+269,2025-04-06,Antigua and Barbuda,web,basic
+270,2024-10-05,Qatar,web,standard
+271,2025-05-11,Isle of Man,tablet,basic
+272,2024-06-17,Estonia,mobile,basic
+273,2024-08-04,Papua New Guinea,tablet,basic
+274,2024-08-18,Portugal,tablet,basic
+275,2024-07-27,Netherlands Antilles,tablet,standard
+276,2025-05-13,China,mobile,standard
+277,2024-10-15,British Indian Ocean Territory (Chagos Archipelago),smart_tv,basic
+278,2025-01-26,Lebanon,web,premium
+279,2025-02-12,Togo,web,standard
+280,2024-09-09,Saudi Arabia,web,basic
+281,2024-06-14,North Macedonia,web,basic
+282,2025-05-21,Cote d'Ivoire,tablet,basic
+283,2025-04-21,Niue,tablet,premium
+284,2024-12-01,United Arab Emirates,web,basic
+285,2024-12-26,South Africa,web,standard
+286,2024-11-08,Greece,web,basic
+287,2025-04-12,Cyprus,smart_tv,premium
+288,2024-11-29,Burundi,tablet,standard
+289,2024-08-11,Greenland,mobile,basic
+290,2024-07-14,Saint Martin,web,basic
+291,2025-05-14,Solomon Islands,tablet,premium
+292,2024-07-15,Indonesia,web,standard
+293,2024-09-05,Saint Pierre and Miquelon,mobile,basic
+294,2024-11-22,United Kingdom,smart_tv,standard
+295,2025-04-28,Guernsey,smart_tv,premium
+296,2024-08-02,Gibraltar,mobile,basic
+297,2024-09-14,Mongolia,mobile,premium
+298,2025-05-20,Belgium,tablet,basic
+299,2024-08-23,Western Sahara,smart_tv,basic
+300,2025-02-15,United States Virgin Islands,mobile,premium
+301,2024-07-31,Isle of Man,web,standard
+302,2024-08-11,Samoa,tablet,premium
+303,2024-10-10,Cuba,web,premium
+304,2025-04-13,Christmas Island,smart_tv,standard
+305,2024-12-20,Equatorial Guinea,mobile,premium
+306,2025-02-21,Indonesia,mobile,standard
+307,2025-05-14,Iraq,mobile,standard
+308,2024-12-06,Liechtenstein,smart_tv,standard
+309,2025-04-17,United Kingdom,tablet,standard
+310,2024-12-24,Congo,tablet,standard
+311,2025-05-15,Somalia,web,standard
+312,2024-09-04,Nauru,mobile,premium
+313,2024-09-17,Mongolia,smart_tv,standard
+314,2024-08-07,Qatar,tablet,premium
+315,2024-07-10,Indonesia,smart_tv,standard
+316,2025-05-26,Pakistan,smart_tv,basic
+317,2025-02-18,Honduras,smart_tv,premium
+318,2024-10-07,British Indian Ocean Territory (Chagos Archipelago),smart_tv,standard
+319,2025-03-25,United States Minor Outlying Islands,mobile,standard
+320,2024-08-16,Peru,tablet,standard
+321,2024-12-14,Spain,mobile,premium
+322,2025-05-17,Mali,web,basic
+323,2024-08-23,Denmark,web,basic
+324,2024-09-25,Lithuania,web,basic
+325,2024-10-25,Saint Martin,mobile,basic
+326,2024-07-24,Luxembourg,smart_tv,basic
+327,2025-01-07,Madagascar,smart_tv,premium
+328,2024-10-18,Swaziland,web,premium
+329,2025-02-19,Guyana,tablet,basic
+330,2025-05-17,Seychelles,mobile,standard
+331,2024-07-21,Cocos (Keeling) Islands,web,premium
+332,2025-01-07,Kenya,smart_tv,basic
+333,2025-01-01,Belgium,tablet,standard
+334,2024-08-23,Bhutan,web,basic
+335,2024-06-17,Trinidad and Tobago,smart_tv,standard
+336,2025-04-01,Turkey,tablet,premium
+337,2024-12-28,Niue,smart_tv,premium
+338,2024-12-14,Cameroon,smart_tv,premium
+339,2024-10-26,Georgia,mobile,premium
+340,2025-04-24,Denmark,tablet,basic
+341,2025-03-08,Niger,mobile,standard
+342,2024-06-21,Rwanda,mobile,basic
+343,2024-08-05,French Guiana,tablet,premium
+344,2025-04-22,Sierra Leone,tablet,basic
+345,2024-06-27,Congo,smart_tv,basic
+346,2025-02-19,Korea,mobile,standard
+347,2024-06-28,Belize,tablet,premium
+348,2024-09-10,China,tablet,standard
+349,2025-01-21,Albania,mobile,basic
+350,2024-09-20,British Virgin Islands,smart_tv,premium
+351,2025-03-25,Palestinian Territory,mobile,premium
+352,2024-11-17,Syrian Arab Republic,mobile,standard
+353,2024-11-13,Wallis and Futuna,web,standard
+354,2024-07-23,Puerto Rico,web,basic
+355,2024-10-30,Bulgaria,web,basic
+356,2024-06-09,Croatia,smart_tv,premium
+357,2025-04-23,Poland,web,premium
+358,2024-10-07,Poland,web,premium
+359,2025-02-12,Germany,web,standard
+360,2025-03-25,British Virgin Islands,web,standard
+361,2025-04-05,Greece,web,basic
+362,2025-01-16,Aruba,mobile,standard
+363,2024-06-20,Syrian Arab Republic,smart_tv,premium
+364,2024-10-05,Kazakhstan,web,basic
+365,2025-02-25,Chad,smart_tv,premium
+366,2025-01-22,United States of America,tablet,standard
+367,2024-06-13,Jordan,mobile,basic
+368,2025-01-02,San Marino,web,basic
+369,2024-11-09,New Caledonia,web,basic
+370,2024-11-18,French Southern Territories,mobile,premium
+371,2024-10-21,Turks and Caicos Islands,tablet,basic
+372,2025-05-05,Saint Martin,tablet,standard
+373,2024-12-09,North Macedonia,smart_tv,premium
+374,2024-08-11,Turkmenistan,smart_tv,standard
+375,2024-12-30,Burundi,web,premium
+376,2025-01-29,Finland,mobile,basic
+377,2024-08-12,Zambia,web,standard
+378,2024-11-20,Seychelles,web,standard
+379,2025-04-24,Uzbekistan,smart_tv,premium
+380,2024-06-27,Norway,web,basic
+381,2024-06-19,Oman,mobile,basic
+382,2024-10-21,Montserrat,mobile,premium
+383,2024-07-06,United States Minor Outlying Islands,mobile,premium
+384,2025-05-07,Bhutan,smart_tv,standard
+385,2024-07-06,Netherlands,mobile,premium
+386,2024-06-19,Bhutan,web,premium
+387,2025-01-17,Kenya,mobile,basic
+388,2025-05-11,Northern Mariana Islands,tablet,basic
+389,2025-04-21,Burkina Faso,web,premium
+390,2024-11-17,Tunisia,smart_tv,standard
+391,2024-06-19,Chile,web,premium
+392,2024-10-12,Montserrat,web,basic
+393,2024-08-10,Saint Kitts and Nevis,mobile,standard
+394,2024-12-01,Aruba,smart_tv,standard
+395,2024-10-27,Lesotho,smart_tv,standard
+396,2024-12-18,Iran,smart_tv,standard
+397,2024-08-22,Vanuatu,mobile,standard
+398,2024-11-22,Haiti,mobile,basic
+399,2024-11-02,French Southern Territories,web,basic
+400,2024-10-18,Bahamas,web,premium
+401,2024-10-26,Luxembourg,smart_tv,premium
+402,2024-08-15,Ecuador,web,standard
+403,2024-08-28,Netherlands Antilles,mobile,standard
+404,2025-03-20,Guatemala,mobile,standard
+405,2024-10-26,Dominica,smart_tv,standard
+406,2025-03-07,Japan,tablet,premium
+407,2024-08-04,Moldova,web,basic
+408,2025-02-14,Fiji,smart_tv,standard
+409,2024-10-21,Austria,tablet,standard
+410,2024-09-28,Tokelau,mobile,basic
+411,2024-08-02,Montenegro,mobile,premium
+412,2025-04-06,Gabon,mobile,standard
+413,2024-06-13,Haiti,tablet,premium
+414,2024-07-15,Reunion,tablet,basic
+415,2025-05-07,Ethiopia,smart_tv,standard
+416,2025-05-06,Paraguay,tablet,basic
+417,2024-11-12,Nepal,smart_tv,standard
+418,2024-06-13,Central African Republic,smart_tv,premium
+419,2025-04-20,Liechtenstein,web,basic
+420,2024-12-20,Lesotho,mobile,premium
+421,2024-10-13,Lithuania,web,basic
+422,2024-11-06,American Samoa,smart_tv,standard
+423,2024-08-14,Netherlands Antilles,web,standard
+424,2024-06-17,Sao Tome and Principe,tablet,basic
+425,2024-10-03,Cyprus,smart_tv,basic
+426,2025-04-16,Fiji,web,premium
+427,2024-10-27,Togo,tablet,premium
+428,2025-03-09,Bermuda,tablet,basic
+429,2024-11-26,Honduras,tablet,standard
+430,2025-01-24,Falkland Islands (Malvinas),smart_tv,standard
+431,2025-03-18,Sao Tome and Principe,mobile,standard
+432,2025-01-11,Gambia,smart_tv,premium
+433,2025-05-13,Sri Lanka,mobile,basic
+434,2024-06-15,Wallis and Futuna,web,standard
+435,2024-07-19,Bermuda,mobile,premium
+436,2025-06-03,Croatia,smart_tv,standard
+437,2025-04-29,Angola,mobile,premium
+438,2024-10-07,Liberia,smart_tv,premium
+439,2024-11-04,Micronesia,tablet,premium
+440,2024-06-15,Sudan,smart_tv,basic
+441,2025-03-25,Fiji,tablet,premium
+442,2024-11-08,China,mobile,basic
+443,2024-08-30,Swaziland,web,standard
+444,2025-01-07,Latvia,tablet,standard
+445,2024-12-24,Kazakhstan,tablet,premium
+446,2025-04-08,Croatia,mobile,premium
+447,2024-08-19,Serbia,web,premium
+448,2025-01-23,Isle of Man,web,basic
+449,2025-02-13,Saint Pierre and Miquelon,smart_tv,basic
+450,2025-02-07,Sierra Leone,mobile,standard
+451,2024-10-13,Iraq,mobile,basic
+452,2024-09-15,Hungary,smart_tv,basic
+453,2025-05-22,Mongolia,tablet,premium
+454,2024-12-24,Saint Lucia,mobile,standard
+455,2024-11-01,Christmas Island,web,basic
+456,2025-03-23,Aruba,mobile,standard
+457,2025-03-05,Faroe Islands,mobile,premium
+458,2024-11-26,Cayman Islands,tablet,basic
+459,2024-06-15,Ukraine,mobile,premium
+460,2024-06-09,Algeria,tablet,premium
+461,2024-06-21,Guernsey,smart_tv,standard
+462,2024-08-02,Faroe Islands,mobile,standard
+463,2024-10-29,Mauritania,smart_tv,standard
+464,2025-04-08,Vanuatu,tablet,standard
+465,2024-07-19,Guyana,web,standard
+466,2025-02-08,Tunisia,smart_tv,standard
+467,2024-08-10,Andorra,smart_tv,premium
+468,2025-03-28,China,smart_tv,standard
+469,2024-06-27,Jordan,tablet,basic
+470,2025-05-01,Togo,web,standard
+471,2025-05-27,Brazil,web,basic
+472,2024-06-11,Guatemala,web,premium
+473,2024-08-29,Denmark,tablet,standard
+474,2024-08-13,Martinique,mobile,basic
+475,2024-10-29,Poland,mobile,basic
+476,2024-06-24,Bouvet Island (Bouvetoya),mobile,basic
+477,2025-06-02,French Polynesia,smart_tv,premium
+478,2025-02-06,Burkina Faso,mobile,premium
+479,2025-04-16,Sri Lanka,tablet,standard
+480,2024-07-11,Palestinian Territory,mobile,premium
+481,2025-01-21,Cuba,web,basic
+482,2025-05-16,Mongolia,web,premium
+483,2025-04-19,Turkmenistan,mobile,standard
+484,2024-12-10,United States of America,tablet,standard
+485,2025-02-15,Cape Verde,tablet,standard
+486,2025-04-25,Cayman Islands,smart_tv,premium
+487,2024-10-29,Thailand,mobile,standard
+488,2024-09-01,Serbia,mobile,premium
+489,2024-12-07,Kiribati,web,basic
+490,2024-11-18,Belgium,tablet,standard
+491,2024-06-05,Fiji,tablet,standard
+492,2024-07-03,Belgium,mobile,basic
+493,2024-07-16,Bermuda,tablet,basic
+494,2024-09-12,Aruba,smart_tv,premium
+495,2024-10-02,Guernsey,web,standard
+496,2024-06-09,Benin,tablet,standard
+497,2024-12-23,Tanzania,smart_tv,premium
+498,2024-08-29,Bouvet Island (Bouvetoya),smart_tv,basic
+499,2024-10-07,Mayotte,mobile,standard
+500,2025-03-09,Serbia,smart_tv,standard
+501,2025-03-23,Saudi Arabia,smart_tv,basic
+502,2024-10-18,Belarus,mobile,premium
+503,2024-10-04,British Indian Ocean Territory (Chagos Archipelago),web,basic
+504,2025-02-08,Peru,web,basic
+505,2024-08-29,Aruba,mobile,basic
+506,2025-05-25,United Kingdom,smart_tv,premium
+507,2025-02-09,Colombia,tablet,basic
+508,2025-03-27,French Guiana,mobile,premium
+509,2024-09-24,San Marino,web,standard
+510,2024-09-05,Western Sahara,tablet,premium
+511,2024-11-22,Niue,mobile,standard
+512,2024-07-17,Armenia,web,premium
+513,2024-08-14,Wallis and Futuna,smart_tv,premium
+514,2025-02-25,Australia,tablet,basic
+515,2024-07-02,Samoa,mobile,standard
+516,2024-08-06,Romania,mobile,standard
+517,2025-01-25,Denmark,smart_tv,premium
+518,2024-06-08,Djibouti,web,standard
+519,2024-11-03,Czech Republic,web,premium
+520,2025-02-05,Reunion,tablet,standard
+521,2025-03-22,United States Minor Outlying Islands,smart_tv,premium
+522,2025-04-17,Congo,tablet,standard
+523,2025-04-18,Sao Tome and Principe,web,standard
+524,2025-03-18,Albania,smart_tv,premium
+525,2024-09-28,Uzbekistan,web,standard
+526,2024-07-31,Tokelau,smart_tv,standard
+527,2025-02-28,Bouvet Island (Bouvetoya),smart_tv,standard
+528,2024-08-29,Jordan,smart_tv,premium
+529,2024-12-08,Honduras,tablet,basic
+530,2025-01-25,Lesotho,smart_tv,standard
+531,2025-01-11,Martinique,smart_tv,premium
+532,2024-10-22,Uganda,smart_tv,standard
+533,2024-08-05,France,mobile,basic
+534,2024-11-27,China,web,basic
+535,2025-04-09,Honduras,mobile,premium
+536,2024-10-02,Burundi,tablet,basic
+537,2025-01-13,Cuba,mobile,standard
+538,2025-01-15,Colombia,tablet,basic
+539,2024-07-02,Iran,smart_tv,basic
+540,2025-05-28,Botswana,mobile,basic
+541,2024-09-21,Saint Pierre and Miquelon,smart_tv,premium
+542,2024-09-27,French Polynesia,smart_tv,basic
+543,2024-08-06,Brunei Darussalam,web,standard
+544,2025-02-21,Bhutan,web,standard
+545,2024-11-05,Svalbard & Jan Mayen Islands,web,standard
+546,2024-09-28,Andorra,tablet,premium
+547,2025-03-01,Chile,mobile,basic
+548,2024-11-22,Cambodia,tablet,standard
+549,2024-11-19,Gabon,smart_tv,premium
+550,2024-07-17,Swaziland,mobile,standard
+551,2024-07-26,United States of America,mobile,premium
+552,2025-04-27,Pakistan,tablet,premium
+553,2025-02-20,Myanmar,tablet,premium
+554,2024-12-24,Colombia,mobile,standard
+555,2025-02-22,Tonga,smart_tv,basic
+556,2024-07-14,Malawi,web,standard
+557,2024-09-19,Russian Federation,web,standard
+558,2025-04-25,Guinea,web,standard
+559,2024-08-24,Faroe Islands,smart_tv,basic
+560,2025-04-08,American Samoa,tablet,basic
+561,2024-08-19,Guatemala,tablet,premium
+562,2024-09-29,Turkmenistan,mobile,basic
+563,2025-02-07,Seychelles,tablet,standard
+564,2024-08-15,Slovakia (Slovak Republic),mobile,standard
+565,2024-09-22,Mexico,mobile,basic
+566,2024-07-19,Trinidad and Tobago,web,basic
+567,2024-09-26,Guinea-Bissau,tablet,standard
+568,2025-04-20,Singapore,tablet,standard
+569,2024-09-16,Serbia,web,premium
+570,2024-09-13,Pakistan,mobile,premium
+571,2025-01-16,Syrian Arab Republic,tablet,basic
+572,2024-12-25,Taiwan,smart_tv,basic
+573,2025-02-06,Nauru,mobile,basic
+574,2024-06-05,El Salvador,tablet,standard
+575,2024-12-11,Sierra Leone,tablet,premium
+576,2025-05-22,France,mobile,basic
+577,2024-06-23,Estonia,web,basic
+578,2024-08-01,Antarctica (the territory South of 60 deg S),web,standard
+579,2024-07-13,Iceland,tablet,premium
+580,2025-05-16,Moldova,smart_tv,basic
+581,2024-08-26,Norfolk Island,web,basic
+582,2025-04-14,Ethiopia,web,standard
+583,2024-06-09,Monaco,web,standard
+584,2025-05-31,Macao,tablet,premium
+585,2024-12-27,Equatorial Guinea,smart_tv,basic
+586,2025-02-10,Pitcairn Islands,tablet,standard
+587,2024-07-16,Netherlands,mobile,standard
+588,2025-04-30,Slovakia (Slovak Republic),mobile,premium
+589,2025-05-25,Peru,smart_tv,standard
+590,2025-05-12,Canada,smart_tv,premium
+591,2025-05-31,Malawi,smart_tv,premium
+592,2024-12-23,Panama,web,standard
+593,2024-07-13,Sierra Leone,smart_tv,basic
+594,2024-11-25,Morocco,web,basic
+595,2024-09-06,Greenland,smart_tv,basic
+596,2025-05-28,Gabon,web,basic
+597,2025-03-17,Timor-Leste,smart_tv,basic
+598,2024-08-14,Bulgaria,web,standard
+599,2024-09-15,Tonga,tablet,basic
+600,2025-02-26,Albania,mobile,standard
+601,2025-01-14,Gibraltar,tablet,standard
+602,2025-03-03,Korea,smart_tv,standard
+603,2024-11-17,Uzbekistan,smart_tv,premium
+604,2024-06-06,Cocos (Keeling) Islands,tablet,basic
+605,2025-01-03,Malta,tablet,standard
+606,2024-11-21,Ecuador,tablet,premium
+607,2024-08-22,Russian Federation,smart_tv,basic
+608,2024-06-17,South Africa,mobile,standard
+609,2024-09-26,United States of America,tablet,basic
+610,2025-01-20,Uganda,web,basic
+611,2025-02-04,Turkmenistan,mobile,standard
+612,2024-10-05,Uzbekistan,smart_tv,standard
+613,2024-10-13,Liechtenstein,tablet,standard
+614,2024-12-31,Liberia,tablet,standard
+615,2025-01-30,Tanzania,smart_tv,basic
+616,2025-01-04,Bouvet Island (Bouvetoya),tablet,premium
+617,2024-08-02,Morocco,smart_tv,standard
+618,2025-02-14,Albania,tablet,premium
+619,2024-06-15,Serbia,web,standard
+620,2024-08-11,Faroe Islands,web,standard
+621,2024-09-05,British Indian Ocean Territory (Chagos Archipelago),mobile,premium
+622,2025-05-09,Botswana,smart_tv,basic
+623,2024-08-28,Brunei Darussalam,mobile,basic
+624,2025-02-23,Algeria,smart_tv,premium
+625,2024-10-31,Peru,smart_tv,basic
+626,2025-04-01,Iceland,tablet,basic
+627,2024-09-08,Kiribati,tablet,standard
+628,2024-12-19,El Salvador,tablet,basic
+629,2024-08-30,Cape Verde,web,basic
+630,2024-09-02,Croatia,smart_tv,basic
+631,2025-02-24,Samoa,mobile,basic
+632,2025-04-19,Saudi Arabia,mobile,basic
+633,2025-04-22,Iraq,smart_tv,premium
+634,2024-08-19,Isle of Man,mobile,standard
+635,2025-02-12,Colombia,web,premium
+636,2024-06-21,Mexico,mobile,standard
+637,2024-10-19,Andorra,tablet,standard
+638,2025-03-15,Austria,mobile,premium
+639,2024-10-20,Yemen,web,standard
+640,2025-03-13,Georgia,smart_tv,basic
+641,2024-10-23,Georgia,tablet,standard
+642,2024-08-02,Azerbaijan,tablet,premium
+643,2024-07-11,Zimbabwe,web,standard
+644,2024-11-01,Sri Lanka,tablet,standard
+645,2024-08-23,Turkey,mobile,premium
+646,2024-11-05,Oman,smart_tv,basic
+647,2025-03-12,New Caledonia,tablet,basic
+648,2024-10-31,Greenland,mobile,premium
+649,2025-04-20,Guernsey,mobile,premium
+650,2025-02-12,Vietnam,web,standard
+651,2024-10-05,Israel,web,premium
+652,2024-12-21,Ukraine,web,premium
+653,2025-03-23,Greece,tablet,premium
+654,2024-07-31,Swaziland,mobile,standard
+655,2025-04-24,Cayman Islands,mobile,standard
+656,2024-08-10,Vietnam,smart_tv,basic
+657,2024-12-27,Tunisia,smart_tv,basic
+658,2024-11-04,Saint Helena,tablet,premium
+659,2024-06-13,Saint Kitts and Nevis,smart_tv,standard
+660,2024-11-22,Yemen,tablet,premium
+661,2025-06-02,Colombia,web,standard
+662,2024-12-08,Saint Barthelemy,smart_tv,basic
+663,2025-04-12,Bangladesh,web,basic
+664,2024-07-20,United States Minor Outlying Islands,web,standard
+665,2024-09-02,Zimbabwe,tablet,standard
+666,2025-01-05,Palau,web,basic
+667,2024-10-13,Cayman Islands,mobile,standard
+668,2024-06-09,Burkina Faso,web,premium
+669,2025-04-28,Peru,tablet,basic
+670,2024-06-22,Paraguay,tablet,standard
+671,2025-03-23,Philippines,mobile,standard
+672,2025-03-13,Uruguay,tablet,basic
+673,2024-08-19,Angola,web,standard
+674,2024-08-21,Finland,web,standard
+675,2025-02-23,Guatemala,tablet,premium
+676,2025-04-22,Romania,tablet,premium
+677,2025-03-08,Bulgaria,web,premium
+678,2024-08-15,Nauru,web,standard
+679,2024-07-13,Uzbekistan,smart_tv,basic
+680,2025-02-06,Kiribati,tablet,standard
+681,2024-10-22,North Macedonia,tablet,premium
+682,2024-11-11,Costa Rica,web,premium
+683,2024-06-13,Monaco,mobile,standard
+684,2024-08-23,Denmark,mobile,premium
+685,2025-01-24,Cote d'Ivoire,smart_tv,premium
+686,2025-02-24,Serbia,tablet,standard
+687,2024-11-01,Bolivia,tablet,basic
+688,2024-07-31,Mongolia,mobile,standard
+689,2024-06-28,Italy,web,standard
+690,2025-03-26,British Indian Ocean Territory (Chagos Archipelago),mobile,premium
+691,2024-09-22,Mongolia,smart_tv,premium
+692,2024-07-29,Antigua and Barbuda,tablet,standard
+693,2024-11-09,Bahrain,tablet,premium
+694,2025-05-25,France,smart_tv,standard
+695,2025-01-13,Botswana,web,basic
+696,2024-07-18,Equatorial Guinea,smart_tv,standard
+697,2025-05-30,Greenland,mobile,standard
+698,2025-04-27,Albania,tablet,premium
+699,2024-10-31,Botswana,mobile,basic
+700,2024-09-05,Iceland,web,premium
+701,2025-03-25,Western Sahara,mobile,premium
+702,2024-12-10,Gibraltar,web,standard
+703,2025-03-06,El Salvador,smart_tv,standard
+704,2024-07-29,Iceland,web,standard
+705,2025-01-22,Suriname,smart_tv,premium
+706,2024-10-20,Syrian Arab Republic,web,standard
+707,2024-12-13,Azerbaijan,smart_tv,basic
+708,2024-08-27,British Virgin Islands,mobile,basic
+709,2024-10-29,Djibouti,mobile,basic
+710,2025-03-21,United States Minor Outlying Islands,web,basic
+711,2025-01-01,Israel,mobile,standard
+712,2025-01-02,French Southern Territories,web,premium
+713,2024-11-07,Malawi,smart_tv,standard
+714,2024-10-31,Syrian Arab Republic,tablet,premium
+715,2025-01-30,Malawi,smart_tv,standard
+716,2024-12-02,Libyan Arab Jamahiriya,web,basic
+717,2024-07-17,France,mobile,premium
+718,2024-12-11,Pakistan,web,premium
+719,2025-03-09,Botswana,web,standard
+720,2025-01-28,Madagascar,tablet,standard
+721,2025-03-16,Lesotho,tablet,premium
+722,2025-01-15,Italy,smart_tv,standard
+723,2025-01-13,Qatar,smart_tv,basic
+724,2025-01-11,Micronesia,mobile,standard
+725,2025-06-03,Chile,web,basic
+726,2024-07-15,Ecuador,smart_tv,premium
+727,2024-08-04,Colombia,mobile,premium
+728,2024-06-14,Zambia,tablet,premium
+729,2025-05-09,Greece,web,premium
+730,2025-05-02,Senegal,mobile,standard
+731,2025-05-17,Botswana,smart_tv,premium
+732,2024-11-08,San Marino,mobile,basic
+733,2025-05-17,Afghanistan,web,basic
+734,2024-10-27,Yemen,smart_tv,premium
+735,2024-08-22,Saint Martin,mobile,premium
+736,2024-08-12,Oman,smart_tv,basic
+737,2024-11-27,Dominica,tablet,standard
+738,2025-04-29,Albania,mobile,basic
+739,2024-12-31,Northern Mariana Islands,smart_tv,premium
+740,2024-10-07,China,smart_tv,standard
+741,2024-12-01,Nepal,tablet,basic
+742,2024-12-03,Malta,mobile,standard
+743,2025-04-14,Gabon,mobile,basic
+744,2024-09-10,Bolivia,mobile,standard
+745,2024-07-08,Bermuda,smart_tv,basic
+746,2024-12-13,Papua New Guinea,smart_tv,basic
+747,2025-06-01,Argentina,mobile,standard
+748,2024-07-24,Dominican Republic,web,basic
+749,2025-01-28,Kuwait,web,standard
+750,2025-03-05,Guinea-Bissau,web,premium
+751,2025-03-11,Cuba,mobile,basic
+752,2024-07-27,Senegal,mobile,basic
+753,2024-07-13,Guyana,tablet,standard
+754,2025-01-18,Ecuador,mobile,standard
+755,2024-06-27,Sierra Leone,web,basic
+756,2025-04-24,Maldives,web,premium
+757,2025-01-28,Faroe Islands,mobile,premium
+758,2024-10-29,Zimbabwe,web,premium
+759,2025-01-07,Vietnam,web,basic
+760,2024-10-03,Cambodia,smart_tv,basic
+761,2025-03-01,Antigua and Barbuda,mobile,basic
+762,2024-07-20,Ecuador,web,premium
+763,2024-08-31,Benin,mobile,standard
+764,2025-03-20,British Virgin Islands,web,basic
+765,2024-06-12,Macao,smart_tv,standard
+766,2024-07-28,Brazil,smart_tv,basic
+767,2025-05-17,Romania,smart_tv,premium
+768,2024-12-27,British Indian Ocean Territory (Chagos Archipelago),web,basic
+769,2024-11-01,Oman,smart_tv,basic
+770,2024-12-11,Ethiopia,smart_tv,standard
+771,2024-10-29,Isle of Man,mobile,premium
+772,2024-06-16,Tajikistan,tablet,standard
+773,2025-06-02,Haiti,web,premium
+774,2025-05-17,Zimbabwe,web,basic
+775,2025-04-01,Denmark,mobile,premium
+776,2025-03-26,Gibraltar,smart_tv,basic
+777,2024-06-23,Christmas Island,web,standard
+778,2025-05-27,Jersey,mobile,basic
+779,2025-01-30,Burkina Faso,smart_tv,premium
+780,2024-12-28,Slovenia,smart_tv,basic
+781,2025-02-10,Georgia,mobile,basic
+782,2025-05-27,Saudi Arabia,web,basic
+783,2024-09-10,Seychelles,web,standard
+784,2025-05-17,Tajikistan,smart_tv,basic
+785,2024-10-21,Bulgaria,tablet,premium
+786,2025-03-21,Thailand,smart_tv,standard
+787,2025-02-27,Guyana,web,premium
+788,2024-06-11,Haiti,tablet,premium
+789,2025-02-07,North Macedonia,tablet,standard
+790,2024-06-17,Bhutan,mobile,premium
+791,2024-06-11,Senegal,smart_tv,standard
+792,2025-05-23,Bouvet Island (Bouvetoya),smart_tv,premium
+793,2024-06-27,Puerto Rico,mobile,standard
+794,2025-05-12,Cote d'Ivoire,mobile,standard
+795,2024-07-13,Russian Federation,mobile,basic
+796,2024-06-07,Tajikistan,tablet,premium
+797,2025-04-23,Ecuador,tablet,standard
+798,2024-06-24,Pitcairn Islands,web,premium
+799,2024-07-17,Mauritius,smart_tv,standard
+800,2024-06-26,Philippines,web,basic
+801,2024-10-17,Marshall Islands,web,premium
+802,2025-05-03,Nauru,tablet,premium
+803,2025-02-02,Togo,smart_tv,basic
+804,2025-02-07,Paraguay,smart_tv,standard
+805,2024-09-26,Latvia,tablet,premium
+806,2024-06-12,Guadeloupe,smart_tv,premium
+807,2024-11-23,Cocos (Keeling) Islands,web,basic
+808,2025-01-20,Solomon Islands,web,standard
+809,2024-07-14,Vanuatu,web,standard
+810,2024-07-09,Japan,tablet,premium
+811,2024-09-19,Indonesia,mobile,standard
+812,2025-02-15,Iran,mobile,standard
+813,2024-11-26,Dominica,smart_tv,premium
+814,2025-02-15,Czech Republic,web,standard
+815,2025-05-11,British Indian Ocean Territory (Chagos Archipelago),smart_tv,standard
+816,2024-10-08,Ireland,web,standard
+817,2025-06-01,Cocos (Keeling) Islands,web,basic
+818,2024-09-02,Chile,tablet,standard
+819,2024-11-22,Kiribati,smart_tv,basic
+820,2024-07-17,Bouvet Island (Bouvetoya),web,standard
+821,2024-06-08,Syrian Arab Republic,tablet,premium
+822,2025-04-14,Cyprus,web,basic
+823,2024-07-20,New Zealand,web,premium
+824,2024-08-09,Nigeria,tablet,basic
+825,2025-05-25,Austria,web,standard
+826,2024-11-23,Myanmar,smart_tv,premium
+827,2024-09-05,Poland,smart_tv,premium
+828,2024-06-04,Slovenia,web,standard
+829,2024-11-01,Bangladesh,smart_tv,premium
+830,2025-05-03,Svalbard & Jan Mayen Islands,smart_tv,basic
+831,2024-12-08,Aruba,web,basic
+832,2024-06-30,Guinea-Bissau,smart_tv,basic
+833,2025-05-28,Indonesia,tablet,basic
+834,2024-06-25,Sao Tome and Principe,mobile,standard
+835,2024-08-14,Sao Tome and Principe,smart_tv,basic
+836,2024-06-28,Honduras,web,premium
+837,2024-06-17,Reunion,tablet,basic
+838,2025-02-20,Egypt,smart_tv,basic
+839,2025-05-07,Cameroon,smart_tv,basic
+840,2024-06-14,United States Virgin Islands,mobile,standard
+841,2024-07-22,Liberia,smart_tv,standard
+842,2024-10-12,Belarus,smart_tv,basic
+843,2024-09-12,Sri Lanka,smart_tv,basic
+844,2024-12-13,Guatemala,web,premium
+845,2025-05-26,Slovenia,smart_tv,basic
+846,2024-12-04,Western Sahara,smart_tv,premium
+847,2024-07-28,Nepal,mobile,standard
+848,2024-11-28,Afghanistan,tablet,standard
+849,2024-10-14,Mauritius,mobile,premium
+850,2025-05-22,Turks and Caicos Islands,tablet,standard
+851,2025-04-14,Singapore,mobile,standard
+852,2024-07-31,Equatorial Guinea,tablet,basic
+853,2025-01-05,Afghanistan,tablet,basic
+854,2024-06-18,Jordan,tablet,basic
+855,2024-07-12,Mongolia,smart_tv,premium
+856,2024-06-30,Norfolk Island,web,standard
+857,2024-12-19,Vietnam,smart_tv,premium
+858,2024-06-23,Andorra,mobile,premium
+859,2025-01-26,Northern Mariana Islands,mobile,standard
+860,2025-03-20,United Arab Emirates,tablet,premium
+861,2025-05-20,Solomon Islands,smart_tv,premium
+862,2025-03-21,Angola,smart_tv,premium
+863,2024-08-29,Sri Lanka,tablet,premium
+864,2024-11-07,Niger,tablet,premium
+865,2024-12-19,Colombia,mobile,premium
+866,2024-09-11,Benin,smart_tv,standard
+867,2025-05-09,Papua New Guinea,mobile,basic
+868,2025-02-17,South Africa,mobile,basic
+869,2024-07-14,Australia,web,basic
+870,2024-07-03,Montserrat,tablet,premium
+871,2024-12-03,Jamaica,web,basic
+872,2024-08-08,Cambodia,tablet,basic
+873,2025-05-22,Cyprus,web,premium
+874,2025-04-21,Puerto Rico,web,standard
+875,2024-12-27,Timor-Leste,tablet,premium
+876,2024-12-25,Sao Tome and Principe,smart_tv,premium
+877,2025-04-02,Egypt,web,premium
+878,2025-02-22,Pitcairn Islands,smart_tv,basic
+879,2025-04-27,Indonesia,mobile,basic
+880,2024-08-18,Libyan Arab Jamahiriya,mobile,basic
+881,2025-03-06,Croatia,tablet,premium
+882,2025-04-21,Papua New Guinea,smart_tv,basic
+883,2025-05-25,Azerbaijan,mobile,premium
+884,2025-01-01,Bahamas,web,basic
+885,2024-09-05,New Zealand,smart_tv,premium
+886,2024-07-01,Iceland,mobile,basic
+887,2024-06-28,Angola,smart_tv,premium
+888,2025-03-12,Armenia,mobile,standard
+889,2024-08-06,Morocco,mobile,premium
+890,2024-08-02,Iran,mobile,basic
+891,2024-07-03,Bahamas,web,premium
+892,2024-09-19,Belarus,tablet,basic
+893,2024-09-25,Montserrat,tablet,standard
+894,2024-07-13,Honduras,mobile,premium
+895,2025-03-15,Belgium,tablet,standard
+896,2025-05-18,Bosnia and Herzegovina,smart_tv,basic
+897,2024-11-28,French Southern Territories,smart_tv,basic
+898,2024-11-20,Montserrat,mobile,basic
+899,2025-02-23,French Guiana,web,basic
+900,2024-10-02,Colombia,mobile,basic
+901,2024-09-25,Mexico,tablet,basic
+902,2024-11-20,Uruguay,web,standard
+903,2024-07-18,British Virgin Islands,tablet,basic
+904,2025-04-10,Ecuador,web,premium
+905,2025-01-18,Grenada,mobile,basic
+906,2024-12-05,South Africa,tablet,standard
+907,2024-07-03,Guam,smart_tv,standard
+908,2024-12-19,Trinidad and Tobago,tablet,standard
+909,2024-07-24,Palestinian Territory,mobile,premium
+910,2025-05-23,Tonga,tablet,premium
+911,2024-06-18,Liberia,mobile,premium
+912,2025-05-09,Saint Lucia,web,standard
+913,2024-06-30,Vietnam,tablet,standard
+914,2025-04-05,Guam,web,premium
+915,2024-10-26,Lithuania,tablet,basic
+916,2025-02-07,Ghana,mobile,standard
+917,2025-01-02,Canada,mobile,standard
+918,2024-12-14,Yemen,mobile,basic
+919,2025-04-02,Malawi,web,basic
+920,2025-03-20,Puerto Rico,smart_tv,premium
+921,2024-08-16,Turkmenistan,tablet,basic
+922,2024-12-16,Micronesia,mobile,premium
+923,2025-05-03,Heard Island and McDonald Islands,mobile,premium
+924,2025-02-07,Greenland,mobile,premium
+925,2025-03-04,Grenada,tablet,standard
+926,2025-01-29,San Marino,mobile,basic
+927,2024-10-30,Ireland,tablet,premium
+928,2025-05-07,Peru,smart_tv,basic
+929,2024-08-10,Swaziland,smart_tv,premium
+930,2025-05-22,Armenia,web,premium
+931,2024-06-28,Argentina,smart_tv,standard
+932,2024-07-05,Tajikistan,smart_tv,basic
+933,2025-04-01,Spain,tablet,premium
+934,2025-01-02,Egypt,tablet,premium
+935,2024-10-12,Mozambique,tablet,standard
+936,2024-09-05,Greece,web,basic
+937,2025-02-27,Turkmenistan,smart_tv,basic
+938,2025-02-05,British Indian Ocean Territory (Chagos Archipelago),mobile,premium
+939,2025-06-03,Costa Rica,smart_tv,basic
+940,2025-01-26,Tanzania,smart_tv,basic
+941,2025-01-27,Japan,smart_tv,basic
+942,2024-07-25,Taiwan,tablet,basic
+943,2024-07-01,Sweden,web,basic
+944,2025-02-05,Maldives,tablet,basic
+945,2024-12-28,Jamaica,mobile,basic
+946,2024-06-27,Eritrea,tablet,basic
+947,2025-02-18,Bosnia and Herzegovina,web,basic
+948,2024-07-12,Poland,mobile,basic
+949,2024-10-02,Togo,tablet,standard
+950,2024-10-14,Uruguay,mobile,standard
+951,2024-06-25,Zimbabwe,tablet,basic
+952,2024-07-17,Palau,mobile,basic
+953,2024-10-23,Qatar,tablet,premium
+954,2024-06-18,Kenya,smart_tv,premium
+955,2024-10-13,Brazil,mobile,basic
+956,2025-05-31,Bangladesh,smart_tv,premium
+957,2025-01-02,Congo,smart_tv,basic
+958,2024-11-23,Russian Federation,tablet,premium
+959,2024-08-13,Mauritius,mobile,basic
+960,2025-01-11,Estonia,mobile,basic
+961,2024-11-25,Cyprus,tablet,basic
+962,2024-07-05,Tunisia,web,premium
+963,2024-09-30,Uganda,smart_tv,premium
+964,2024-10-29,Equatorial Guinea,smart_tv,basic
+965,2025-01-10,Timor-Leste,tablet,basic
+966,2024-07-09,Azerbaijan,mobile,premium
+967,2025-05-01,Czech Republic,web,standard
+968,2024-10-13,Qatar,tablet,basic
+969,2024-10-11,Saudi Arabia,tablet,basic
+970,2025-01-30,Tuvalu,mobile,basic
+971,2025-02-03,Saint Pierre and Miquelon,web,premium
+972,2025-03-01,Seychelles,smart_tv,basic
+973,2024-12-29,Isle of Man,mobile,standard
+974,2024-08-27,Bahamas,mobile,premium
+975,2024-06-08,Antarctica (the territory South of 60 deg S),tablet,basic
+976,2024-09-25,Cape Verde,mobile,standard
+977,2024-07-17,Senegal,web,basic
+978,2024-09-09,Austria,web,basic
+979,2024-10-05,Slovenia,tablet,premium
+980,2024-06-11,Niue,tablet,premium
+981,2024-11-25,Guyana,smart_tv,standard
+982,2024-09-11,Tuvalu,web,premium
+983,2025-04-23,Slovakia (Slovak Republic),smart_tv,basic
+984,2024-12-18,Marshall Islands,smart_tv,standard
+985,2024-11-21,France,tablet,premium
+986,2024-07-04,Bahrain,web,basic
+987,2025-03-10,Denmark,web,premium
+988,2025-03-05,Macao,mobile,premium
+989,2024-09-06,Bouvet Island (Bouvetoya),mobile,premium
+990,2025-01-03,Puerto Rico,smart_tv,standard
+991,2024-11-21,Liechtenstein,web,premium
+992,2025-03-14,Sudan,tablet,basic
+993,2024-12-03,Mexico,web,basic
+994,2024-07-30,Western Sahara,web,premium
+995,2024-08-10,Belize,mobile,premium
+996,2024-12-10,United States Virgin Islands,mobile,standard
+997,2024-08-08,Serbia,web,standard
+998,2025-05-03,Senegal,smart_tv,basic
+999,2025-05-27,Eritrea,web,basic
+1000,2024-09-25,Monaco,tablet,standard
