@@ -1,0 +1,29 @@
+name: 'netflix_retention_project'
+version: '1.0.0'
+
+profile: 'netflix_retention_project'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  netflix_retention_project:
+    # raw:
+    #   +schema: public                     # Raw source tables - (if you have raw models, or just sources)
+    staging:
+      +schema: staging                 # Cleaned staging views/tables
+      +materialized: view             # Staging as views by default
+    marts:
+      +schema: marts              # Business marts/fact tables
+      +materialized: table 
+    analytics:
+      +schema: analytics           # Analytics models
+      +materialized: table          # Analytics as tables by default

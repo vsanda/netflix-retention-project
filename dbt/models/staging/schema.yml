@@ -1,0 +1,96 @@
+version: 2
+
+models:
+  - name: stg_users
+    description: "Cleaned and typed staging model for the raw users table."
+    columns:
+      - name: user_id
+        description: "Unique identifier for each user."
+        tests:
+          - not_null
+          - unique
+      - name: signup_date
+        description: "Date the user signed up."
+        tests:
+          - not_null
+      - name: country
+        description: "Country of the user."
+      - name: device_type
+        description: "Type of device the user uses (mobile, tablet, etc.)."
+      - name: plan_type
+        description: "Subscription plan type."
+
+  - name: stg_videos
+    description: "Cleaned staging model for the raw videos table."
+    columns:
+      - name: video_id
+        description: "Unique identifier for each video."
+        tests:
+          - not_null
+          - unique
+      - name: title
+        description: "Title of the video."
+      - name: genre
+        description: "Genre category of the video."
+      - name: duration
+        description: "Duration of the video in minutes."
+      - name: release_year
+        description: "Year the video was released."
+
+  - name: stg_viewing_history
+    description: "Cleaned staging model for viewing history events."
+    columns:
+      - name: user_id
+        description: "ID of the user who watched the video."
+        tests:
+          - not_null
+      - name: video_id
+        description: "ID of the video watched."
+        tests:
+          - not_null
+      - name: watch_time
+        description: "Watch time in minutes."
+      - name: date_watched
+        description: "Date the video was watched."
+
+  - name: stg_subscriptions
+    description: "Cleaned staging model for user subscription records."
+    columns:
+      - name: user_id
+        description: "ID of the user."
+        tests:
+          - not_null
+      - name: plan_type
+        description: "Type of subscription plan."
+      - name: start_date
+        description: "Subscription start date."
+      - name: end_date
+        description: "Subscription end date."
+      - name: is_active
+        description: "Boolean indicating if subscription is active."
+
+  - name: stg_support_tickets
+    description: "Cleaned staging model for user support tickets."
+    columns:
+      - name: user_id
+        description: "ID of the user who opened the ticket."
+        tests:
+          - not_null
+      - name: issue_type
+        description: "Type of issue reported."
+      - name: ticket_date
+        description: "Date the ticket was created."
+      - name: resolved
+        description: "Boolean indicating if ticket was resolved."
+
+  - name: stg_churn_labels
+    description: "Cleaned staging model for user churn labels."
+    columns:
+      - name: user_id
+        description: "ID of the user."
+        tests:
+          - not_null
+      - name: churned
+        description: "Boolean indicating if the user churned."
+      - name: churn_date
+        description: "Date the user churned (if applicable)."

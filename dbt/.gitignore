@@ -1,0 +1,5 @@
+
+target/
+dbt_packages/
+logs/
+dbt/dbt_profiles/profiles.yml

@@ -1,0 +1,60 @@
+version: 2
+
+models:
+  - name: user_activity_summary
+    description: "Aggregated user activity metrics combining viewing and subscription data."
+    columns:
+      - name: user_id
+        description: "Unique identifier for each user."
+        tests:
+          - not_null
+          - unique
+      - name: signup_date
+        description: "User signup date."
+        tests:
+          - not_null
+      - name: current_plan
+        description: "User's current subscription plan."
+      - name: is_active_subscriber
+        description: "Indicates if the user currently has an active subscription."
+      - name: active_days
+        description: "Number of distinct days the user watched videos."
+      - name: total_views
+        description: "Total number of videos watched by the user."
+      - name: total_watch_time
+        description: "Total watch time in minutes."
+
+  - name: daily_views
+    description: "Daily aggregated viewing metrics."
+    columns:
+      - name: date_watched
+        description: "Date of the viewing activity."
+        tests:
+          - not_null
+      - name: unique_viewers
+        description: "Count of distinct users who watched videos on this date."
+      - name: total_views
+        description: "Total number of views on this date."
+      - name: total_watch_time
+        description: "Total watch time in minutes on this date."
+
+  - name: churn_features
+    description: "Features combining user, churn, subscription, and support ticket data for churn analysis."
+    columns:
+      - name: user_id
+        description: "Unique identifier for each user."
+        tests:
+          - not_null
+          - unique
+      - name: signup_date
+        description: "User signup date."
+        tests:
+          - not_null
+      - name: churned
+        description: "Boolean flag indicating if the user churned."
+      - name: churn_date
+        description: "Date the user churned, if applicable."
+      - name: is_active
+        description: "Indicates if the user currently has an active subscription."
+      - name: num_support_tickets
+        description: "Count of support tickets opened by the user."

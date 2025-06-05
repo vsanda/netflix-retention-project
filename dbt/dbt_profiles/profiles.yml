@@ -1,0 +1,13 @@
+netflix_retention_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: raven           # your dedicated DB user
+      password: Eden 
+      port: 5432
+      dbname: netflix_retention
+      schema: ''       # dedicated schema for this project
+      threads: 1
+      search_path: '"staging", "marts", "analytics"'

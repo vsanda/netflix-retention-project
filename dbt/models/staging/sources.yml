@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: public
+    tables:
+      - name: users
+      - name: videos
+      - name: viewing_history
+      - name: subscriptions
+      - name: support_tickets
+      - name: churn_labels
