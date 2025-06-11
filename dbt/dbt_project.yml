@@ -27,3 +27,8 @@ models:
     analytics:
       +schema: analytics           # Analytics models
       +materialized: table          # Analytics as tables by default
+
+snapshots:
+  netflix_retention_project:
+    +schema: snapshots
+    +materialized: snapshot

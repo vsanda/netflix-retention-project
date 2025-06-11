@@ -8,5 +8,8 @@ select
     signup_date::date,
     country,
     lower(device_type) as device_type,
-    lower(plan_type) as plan_type
+    lower(plan_type) as plan_type,
+    created_at::timestamp,
+    updated_at::timestamp
 from source
+

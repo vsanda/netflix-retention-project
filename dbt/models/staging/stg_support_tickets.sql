@@ -5,8 +5,11 @@ with source as (
 )
 
 select
+    ticket_id::int,
     user_id::int,
-    issue_type,
+    lower(issue_type) as issue_type,
     ticket_date::date,
-    resolved::boolean
+    resolved::boolean,
+    created_at::timestamp,
+    updated_at::timestamp
 from source

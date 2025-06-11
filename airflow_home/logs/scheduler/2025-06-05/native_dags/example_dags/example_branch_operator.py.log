@@ -1,0 +1,40 @@
+[2025-06-05T13:47:54.594-0400] {processor.py:161} INFO - Started process (PID=46726) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-06-05T13:47:54.595-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-06-05T13:47:54.595-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:54.595-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-06-05T13:47:54.617-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:54.608-0400] {dagbag.py:348} ERROR - Failed to import: /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-06-05T13:47:54.618-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-06-05T13:47:54.650-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.057 seconds
+[2025-06-05T13:49:42.703-0400] {processor.py:161} INFO - Started process (PID=46840) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-06-05T13:49:42.705-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-06-05T13:49:42.705-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:42.705-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-06-05T13:49:42.729-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:42.718-0400] {dagbag.py:348} ERROR - Failed to import: /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-06-05T13:49:42.729-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-06-05T13:49:42.763-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.061 seconds

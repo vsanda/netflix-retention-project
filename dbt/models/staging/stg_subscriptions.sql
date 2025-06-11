@@ -6,8 +6,10 @@ with source as (
 
 select
     user_id::int,
-    plan_type,
+    lower(plan_type) as plan_type,
     start_date::date,
     end_date::date,
-    is_active::boolean
+    is_active::boolean,
+    created_at::timestamp,
+    updated_at::timestamp
 from source

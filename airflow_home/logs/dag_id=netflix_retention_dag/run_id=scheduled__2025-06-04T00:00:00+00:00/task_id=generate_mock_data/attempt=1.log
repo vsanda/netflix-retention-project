@@ -1,0 +1,25 @@
+[2025-06-05T14:31:43.175-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: netflix_retention_dag.generate_mock_data scheduled__2025-06-04T00:00:00+00:00 [queued]>
+[2025-06-05T14:31:43.178-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: netflix_retention_dag.generate_mock_data scheduled__2025-06-04T00:00:00+00:00 [queued]>
+[2025-06-05T14:31:43.178-0400] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-06-05T14:31:43.183-0400] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): generate_mock_data> on 2025-06-04 00:00:00+00:00
+[2025-06-05T14:31:43.185-0400] {standard_task_runner.py:60} INFO - Started process 58915 to run task
+[2025-06-05T14:31:43.188-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'netflix_retention_dag', 'generate_mock_data', 'scheduled__2025-06-04T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/netflix_retention_dag.py', '--cfg-path', '/var/folders/h9/p5fdhb7n7s964d6sg7dxh0rw0000gn/T/tmp5kqe47zm']
+[2025-06-05T14:31:43.190-0400] {standard_task_runner.py:88} INFO - Job 4: Subtask generate_mock_data
+[2025-06-05T14:31:43.211-0400] {task_command.py:423} INFO - Running <TaskInstance: netflix_retention_dag.generate_mock_data scheduled__2025-06-04T00:00:00+00:00 [running]> on host mac.lan1
+[2025-06-05T14:31:43.233-0400] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='netflix_retention_dag' AIRFLOW_CTX_TASK_ID='generate_mock_data' AIRFLOW_CTX_EXECUTION_DATE='2025-06-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-04T00:00:00+00:00'
+[2025-06-05T14:31:43.234-0400] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/h9/p5fdhb7n7s964d6sg7dxh0rw0000gn/T
+[2025-06-05T14:31:43.234-0400] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python ./etl/generate_data.py']
+[2025-06-05T14:31:43.237-0400] {subprocess.py:86} INFO - Output:
+[2025-06-05T14:31:43.252-0400] {subprocess.py:93} INFO - /Users/vionasanda/Projects/netflix-retention-project/venv/bin/python: can't open file '/private/var/folders/h9/p5fdhb7n7s964d6sg7dxh0rw0000gn/T/airflowtmpnvz_iedz/./etl/generate_data.py': [Errno 2] No such file or directory
+[2025-06-05T14:31:43.253-0400] {subprocess.py:97} INFO - Command exited with return code 2
+[2025-06-05T14:31:43.256-0400] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-06-05T14:31:43.265-0400] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=netflix_retention_dag, task_id=generate_mock_data, execution_date=20250604T000000, start_date=20250605T183143, end_date=20250605T183143
+[2025-06-05T14:31:43.269-0400] {standard_task_runner.py:107} ERROR - Failed to execute job 4 for task generate_mock_data (Bash command failed. The command returned a non-zero exit code 2.; 58915)
+[2025-06-05T14:31:43.283-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-05T14:31:43.291-0400] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

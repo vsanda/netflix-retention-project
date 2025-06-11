@@ -1,0 +1,18 @@
+[2025-06-05T13:47:55.463-0400] {processor.py:161} INFO - Started process (PID=46727) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-06-05T13:47:55.464-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-06-05T13:47:55.464-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:55.464-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-06-05T13:47:55.468-0400] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-06-05T13:47:55.546-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:55.546-0400] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2025-06-05T13:47:55.549-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:55.549-0400] {override.py:1769} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2025-06-05T13:47:55.551-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:55.551-0400] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2025-06-05T13:47:55.551-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:55.551-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-05T13:47:55.555-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:55.555-0400] {dag.py:3058} INFO - Creating ORM DAG for example_branch_labels
+[2025-06-05T13:47:55.559-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:55.559-0400] {dag.py:3823} INFO - Setting next_dagrun for example_branch_labels to 2025-06-04 00:00:00+00:00, run_after=2025-06-05 00:00:00+00:00
+[2025-06-05T13:47:55.565-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.102 seconds
+[2025-06-05T13:49:44.510-0400] {processor.py:161} INFO - Started process (PID=46841) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-06-05T13:49:44.512-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-06-05T13:49:44.512-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:44.512-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-06-05T13:49:44.516-0400] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-06-05T13:49:44.560-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:44.560-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-05T13:49:44.567-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:44.567-0400] {dag.py:3823} INFO - Setting next_dagrun for example_branch_labels to 2025-06-04 00:00:00+00:00, run_after=2025-06-05 00:00:00+00:00
+[2025-06-05T13:49:44.573-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.063 seconds

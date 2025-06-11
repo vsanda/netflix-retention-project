@@ -58,3 +58,14 @@ models:
         description: "Indicates if the user currently has an active subscription."
       - name: num_support_tickets
         description: "Count of support tickets opened by the user."
+
+  - name: fct_viewing_history
+    description: "Fact table tracking all user video watch events"
+    columns:
+      - name: view_sk
+        tests: [not_null, unique]
+      - name: user_id
+        tests: [not_null]
+      - name: video_id
+        tests: [not_null]
+

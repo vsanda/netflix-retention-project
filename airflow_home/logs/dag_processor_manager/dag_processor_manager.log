@@ -1,0 +1,712 @@
+[2025-06-05T13:46:38.348-0400] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2025-06-05T13:46:38.348-0400] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-05T13:46:38.348-0400] {manager.py:471} INFO - Checking for new files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags every 300 seconds
+[2025-06-05T13:46:38.348-0400] {manager.py:738} INFO - Searching for files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T13:46:38.358-0400] {manager.py:741} INFO - There are 48 files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T13:47:08.361-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.98s           2025-06-05T17:46:47
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.19s           2025-06-05T17:46:41
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.83s           2025-06-05T17:46:45
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.82s           2025-06-05T17:46:43
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.76s           2025-06-05T17:46:39
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  1.02s           2025-06-05T17:47:02
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.88s           2025-06-05T17:46:50
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.89s           2025-06-05T17:46:48
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.93s           2025-06-05T17:47:04
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.87s           2025-06-05T17:46:53
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  1.10s           2025-06-05T17:47:08
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.85s           2025-06-05T17:47:00
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.89s           2025-06-05T17:46:56
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.93s           2025-06-05T17:46:52
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.87s           2025-06-05T17:46:58
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.85s           2025-06-05T17:46:59
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.85s           2025-06-05T17:46:54
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.91s           2025-06-05T17:47:06
+================================================================================
+[2025-06-05T13:47:38.447-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.88s           2025-06-05T17:47:32
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.98s           2025-06-05T17:46:47
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.81s           2025-06-05T17:47:38
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.19s           2025-06-05T17:46:41
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.83s           2025-06-05T17:46:45
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.82s           2025-06-05T17:46:43
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.76s           2025-06-05T17:46:39
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.89s           2025-06-05T17:47:36
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  1.02s           2025-06-05T17:47:02
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.86s           2025-06-05T17:47:22
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.88s           2025-06-05T17:47:29
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.88s           2025-06-05T17:46:50
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.91s           2025-06-05T17:47:11
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.85s           2025-06-05T17:47:17
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.89s           2025-06-05T17:46:48
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.93s           2025-06-05T17:47:04
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.87s           2025-06-05T17:46:53
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.86s           2025-06-05T17:47:24
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  1.10s           2025-06-05T17:47:08
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.89s           2025-06-05T17:47:25
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.86s           2025-06-05T17:47:34
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.85s           2025-06-05T17:47:00
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.89s           2025-06-05T17:46:56
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.90s           2025-06-05T17:47:09
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.90s           2025-06-05T17:47:13
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.93s           2025-06-05T17:46:52
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.87s           2025-06-05T17:46:58
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.87s           2025-06-05T17:47:20
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.87s           2025-06-05T17:47:19
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.90s           2025-06-05T17:47:15
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.86s           2025-06-05T17:47:31
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.85s           2025-06-05T17:46:59
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.89s           2025-06-05T17:47:27
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.85s           2025-06-05T17:46:54
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.91s           2025-06-05T17:47:06
+================================================================================
+[2025-06-05T13:48:09.097-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.88s           2025-06-05T17:47:32
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.98s           2025-06-05T17:46:47
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           1  0.81s           2025-06-05T17:47:54
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           1  0.81s           2025-06-05T17:47:52
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.81s           2025-06-05T17:47:38
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.15s           2025-06-05T17:48:05
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.87s           2025-06-05T17:48:09
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.81s           2025-06-05T17:48:07
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.78s           2025-06-05T17:48:03
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.89s           2025-06-05T17:47:36
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  1.02s           2025-06-05T17:47:02
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.86s           2025-06-05T17:47:49
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.86s           2025-06-05T17:47:22
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.88s           2025-06-05T17:47:29
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.88s           2025-06-05T17:46:50
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.85s           2025-06-05T17:48:01
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.91s           2025-06-05T17:47:11
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.85s           2025-06-05T17:47:17
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.84s           2025-06-05T17:47:55
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.89s           2025-06-05T17:46:48
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.93s           2025-06-05T17:47:04
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.87s           2025-06-05T17:46:53
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.86s           2025-06-05T17:47:24
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  1.10s           2025-06-05T17:47:08
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.89s           2025-06-05T17:47:25
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.86s           2025-06-05T17:47:34
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.85s           2025-06-05T17:47:00
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.96s           2025-06-05T17:47:47
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.89s           2025-06-05T17:46:56
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.87s           2025-06-05T17:47:57
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.90s           2025-06-05T17:47:09
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.90s           2025-06-05T17:47:13
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.93s           2025-06-05T17:46:52
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.87s           2025-06-05T17:46:58
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.87s           2025-06-05T17:47:20
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.86s           2025-06-05T17:47:51
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.87s           2025-06-05T17:47:19
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.90s           2025-06-05T17:47:15
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.86s           2025-06-05T17:47:31
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.94s           2025-06-05T17:47:42
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.85s           2025-06-05T17:46:59
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.89s           2025-06-05T17:47:27
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.89s           2025-06-05T17:47:43
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  1.04s           2025-06-05T17:47:40
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.85s           2025-06-05T17:46:54
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.87s           2025-06-05T17:47:59
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.91s           2025-06-05T17:47:06
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.90s           2025-06-05T17:47:45
+================================================================================
+[2025-06-05T13:48:40.355-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.88s           2025-06-05T17:47:32
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.88s           2025-06-05T17:48:11
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           1  0.81s           2025-06-05T17:47:54
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           1  0.81s           2025-06-05T17:47:52
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.81s           2025-06-05T17:47:38
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.15s           2025-06-05T17:48:05
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.87s           2025-06-05T17:48:09
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.81s           2025-06-05T17:48:07
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.78s           2025-06-05T17:48:03
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.89s           2025-06-05T17:47:36
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.83s           2025-06-05T17:48:28
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.86s           2025-06-05T17:47:49
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.86s           2025-06-05T17:47:22
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.88s           2025-06-05T17:47:29
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.85s           2025-06-05T17:48:14
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.85s           2025-06-05T17:48:01
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.82s           2025-06-05T17:48:37
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.85s           2025-06-05T17:47:17
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.84s           2025-06-05T17:47:55
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.88s           2025-06-05T17:48:12
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.81s           2025-06-05T17:48:30
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.87s           2025-06-05T17:48:17
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.86s           2025-06-05T17:47:24
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.83s           2025-06-05T17:48:33
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.89s           2025-06-05T17:47:25
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.86s           2025-06-05T17:47:34
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.83s           2025-06-05T17:48:26
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.96s           2025-06-05T17:47:47
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.88s           2025-06-05T17:48:20
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.87s           2025-06-05T17:47:57
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.81s           2025-06-05T17:48:35
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.84s           2025-06-05T17:48:38
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.84s           2025-06-05T17:48:15
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.82s           2025-06-05T17:48:22
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.87s           2025-06-05T17:47:20
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.86s           2025-06-05T17:47:51
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.87s           2025-06-05T17:47:19
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.84s           2025-06-05T17:48:40
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.86s           2025-06-05T17:47:31
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.94s           2025-06-05T17:47:42
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.94s           2025-06-05T17:48:24
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.89s           2025-06-05T17:47:27
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.89s           2025-06-05T17:47:43
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  1.04s           2025-06-05T17:47:40
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.84s           2025-06-05T17:48:18
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.87s           2025-06-05T17:47:59
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.83s           2025-06-05T17:48:31
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.90s           2025-06-05T17:47:45
+================================================================================
+[2025-06-05T13:49:11.054-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.88s           2025-06-05T17:47:32
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.84s           2025-06-05T17:49:05
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           1  0.81s           2025-06-05T17:47:54
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           1  0.81s           2025-06-05T17:47:52
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.81s           2025-06-05T17:47:38
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.26s           2025-06-05T17:48:59
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.92s           2025-06-05T17:49:03
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.91s           2025-06-05T17:49:01
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  1.04s           2025-06-05T17:48:57
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.89s           2025-06-05T17:47:36
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.83s           2025-06-05T17:48:28
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.86s           2025-06-05T17:47:49
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.92s           2025-06-05T17:48:46
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.94s           2025-06-05T17:48:53
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.85s           2025-06-05T17:49:09
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.85s           2025-06-05T17:48:01
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.82s           2025-06-05T17:48:37
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  1.03s           2025-06-05T17:48:41
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.84s           2025-06-05T17:47:55
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  1.09s           2025-06-05T17:49:07
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.81s           2025-06-05T17:48:30
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.87s           2025-06-05T17:48:17
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.88s           2025-06-05T17:48:47
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.83s           2025-06-05T17:48:33
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.84s           2025-06-05T17:48:49
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.86s           2025-06-05T17:47:34
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.83s           2025-06-05T17:48:26
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.96s           2025-06-05T17:47:47
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.88s           2025-06-05T17:48:20
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.87s           2025-06-05T17:47:57
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.81s           2025-06-05T17:48:35
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.84s           2025-06-05T17:48:38
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.82s           2025-06-05T17:49:11
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.82s           2025-06-05T17:48:22
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.85s           2025-06-05T17:48:45
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.86s           2025-06-05T17:47:51
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.85s           2025-06-05T17:48:43
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.84s           2025-06-05T17:48:40
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.91s           2025-06-05T17:48:55
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.94s           2025-06-05T17:47:42
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.94s           2025-06-05T17:48:24
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.92s           2025-06-05T17:48:51
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.89s           2025-06-05T17:47:43
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  1.04s           2025-06-05T17:47:40
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.84s           2025-06-05T17:48:18
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.87s           2025-06-05T17:47:59
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.83s           2025-06-05T17:48:31
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.90s           2025-06-05T17:47:45
+================================================================================
+[2025-06-05T13:49:42.853-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.83s           2025-06-05T17:49:21
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.84s           2025-06-05T17:49:05
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           1  0.82s           2025-06-05T17:49:42
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           1  0.84s           2025-06-05T17:49:40
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.81s           2025-06-05T17:49:27
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.26s           2025-06-05T17:48:59
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.92s           2025-06-05T17:49:03
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.91s           2025-06-05T17:49:01
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  1.04s           2025-06-05T17:48:57
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.84s           2025-06-05T17:49:25
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.83s           2025-06-05T17:48:28
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.82s           2025-06-05T17:49:37
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.92s           2025-06-05T17:48:46
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.94s           2025-06-05T17:48:53
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.85s           2025-06-05T17:49:09
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.85s           2025-06-05T17:48:01
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.82s           2025-06-05T17:48:37
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  1.03s           2025-06-05T17:48:41
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.84s           2025-06-05T17:47:55
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  1.09s           2025-06-05T17:49:07
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.81s           2025-06-05T17:48:30
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.84s           2025-06-05T17:49:12
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.88s           2025-06-05T17:48:47
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.83s           2025-06-05T17:48:33
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.84s           2025-06-05T17:48:49
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.83s           2025-06-05T17:49:23
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.83s           2025-06-05T17:48:26
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.94s           2025-06-05T17:49:35
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.85s           2025-06-05T17:49:16
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.87s           2025-06-05T17:47:57
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.81s           2025-06-05T17:48:35
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.84s           2025-06-05T17:48:38
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.82s           2025-06-05T17:49:11
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.83s           2025-06-05T17:49:18
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.85s           2025-06-05T17:48:45
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.83s           2025-06-05T17:49:39
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.85s           2025-06-05T17:48:43
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.84s           2025-06-05T17:48:40
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.91s           2025-06-05T17:48:55
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.83s           2025-06-05T17:49:30
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.92s           2025-06-05T17:49:20
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.92s           2025-06-05T17:48:51
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.84s           2025-06-05T17:49:32
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.81s           2025-06-05T17:49:28
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.97s           2025-06-05T17:49:14
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.87s           2025-06-05T17:47:59
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.83s           2025-06-05T17:48:31
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.85s           2025-06-05T17:49:33
+================================================================================
+[2025-06-05T13:50:14.601-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.83s           2025-06-05T17:49:21
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.81s           2025-06-05T17:49:59
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           1  0.82s           2025-06-05T17:49:42
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           1  0.84s           2025-06-05T17:49:40
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.81s           2025-06-05T17:49:27
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.13s           2025-06-05T17:49:53
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.77s           2025-06-05T17:49:57
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.77s           2025-06-05T17:49:55
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.79s           2025-06-05T17:49:51
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.84s           2025-06-05T17:49:25
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.83s           2025-06-05T17:48:28
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.82s           2025-06-05T17:49:37
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.92s           2025-06-05T17:48:46
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.94s           2025-06-05T17:48:53
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.83s           2025-06-05T17:50:01
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.85s           2025-06-05T17:49:50
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.82s           2025-06-05T17:48:37
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  1.03s           2025-06-05T17:48:41
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.86s           2025-06-05T17:49:44
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.83s           2025-06-05T17:50:00
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.81s           2025-06-05T17:48:30
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.81s           2025-06-05T17:50:05
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.88s           2025-06-05T17:48:47
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.83s           2025-06-05T17:48:33
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.84s           2025-06-05T17:48:49
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.83s           2025-06-05T17:49:23
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.82s           2025-06-05T17:50:14
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.94s           2025-06-05T17:49:35
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.82s           2025-06-05T17:50:09
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.84s           2025-06-05T17:49:46
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.81s           2025-06-05T17:48:35
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.84s           2025-06-05T17:48:38
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.81s           2025-06-05T17:50:03
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.82s           2025-06-05T17:50:10
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.85s           2025-06-05T17:48:45
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.83s           2025-06-05T17:49:39
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.85s           2025-06-05T17:48:43
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.84s           2025-06-05T17:48:40
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.91s           2025-06-05T17:48:55
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.83s           2025-06-05T17:49:30
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.81s           2025-06-05T17:50:12
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.92s           2025-06-05T17:48:51
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.84s           2025-06-05T17:49:32
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.81s           2025-06-05T17:49:28
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.82s           2025-06-05T17:50:07
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.81s           2025-06-05T17:49:48
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.83s           2025-06-05T17:48:31
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.85s           2025-06-05T17:49:33
+================================================================================
+[2025-06-05T14:02:42.990-0400] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2025-06-05T14:02:42.990-0400] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-05T14:02:42.990-0400] {manager.py:471} INFO - Checking for new files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags every 300 seconds
+[2025-06-05T14:02:42.990-0400] {manager.py:738} INFO - Searching for files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T14:02:42.999-0400] {manager.py:741} INFO - There are 49 files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T14:03:13.479-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.77s           2025-06-05T18:02:53
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.13s           2025-06-05T18:02:47
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.79s           2025-06-05T18:02:51
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.86s           2025-06-05T18:02:49
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.79s           2025-06-05T18:02:45
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                                                                                                 1           0  0.90s           2025-06-05T18:02:43
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.89s           2025-06-05T18:03:11
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.87s           2025-06-05T18:02:57
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.95s           2025-06-05T18:02:55
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.88s           2025-06-05T18:03:13
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.85s           2025-06-05T18:03:00
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.87s           2025-06-05T18:03:09
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.92s           2025-06-05T18:03:03
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.90s           2025-06-05T18:02:58
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.86s           2025-06-05T18:03:05
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.85s           2025-06-05T18:03:07
+/Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.87s           2025-06-05T18:03:01
+================================================================================
+[2025-06-05T14:03:37.369-0400] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-05T14:31:40.935-0400] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2025-06-05T14:31:40.935-0400] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-05T14:31:40.935-0400] {manager.py:471} INFO - Checking for new files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags every 300 seconds
+[2025-06-05T14:31:40.936-0400] {manager.py:738} INFO - Searching for files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T14:31:40.936-0400] {manager.py:741} INFO - There are 1 files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T14:32:10.218-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.29s           2025-06-05T18:31:42
+================================================================================
+[2025-06-05T14:32:40.253-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.29s           2025-06-05T18:32:14
+================================================================================
+[2025-06-05T14:33:10.318-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.08s           2025-06-05T18:32:46
+================================================================================
+[2025-06-05T14:33:40.388-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.08s           2025-06-05T18:33:17
+================================================================================
+[2025-06-05T14:34:10.466-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.14s           2025-06-05T18:34:07
+================================================================================
+[2025-06-05T14:34:40.534-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.09s           2025-06-05T18:34:38
+================================================================================
+[2025-06-05T14:35:10.605-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.13s           2025-06-05T18:35:09
+================================================================================
+[2025-06-05T14:35:40.934-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.05s           2025-06-05T18:35:40
+================================================================================
+[2025-06-05T14:36:12.121-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.11s           2025-06-05T18:36:12
+================================================================================
+[2025-06-05T14:36:40.964-0400] {manager.py:738} INFO - Searching for files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T14:36:40.968-0400] {manager.py:741} INFO - There are 1 files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T14:36:42.193-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  0.95s           2025-06-05T18:36:14
+================================================================================
+[2025-06-05T14:37:12.266-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.02s           2025-06-05T18:36:45
+================================================================================
+[2025-06-05T14:37:42.328-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.10s           2025-06-05T18:37:16
+================================================================================
+[2025-06-05T14:38:12.403-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.05s           2025-06-05T18:37:47
+================================================================================
+[2025-06-05T14:38:42.459-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.09s           2025-06-05T18:38:25
+================================================================================
+[2025-06-05T14:39:12.538-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.07s           2025-06-05T18:38:56
+================================================================================
+[2025-06-05T14:39:42.787-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.04s           2025-06-05T18:39:27
+================================================================================
+[2025-06-05T14:40:12.911-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.05s           2025-06-05T18:39:58
+================================================================================
+[2025-06-05T14:40:43.162-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  0.86s           2025-06-05T18:40:34
+================================================================================
+[2025-06-05T14:41:13.856-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.05s           2025-06-05T18:41:05
+================================================================================
+[2025-06-05T14:41:41.027-0400] {manager.py:738} INFO - Searching for files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T14:41:41.030-0400] {manager.py:741} INFO - There are 1 files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T14:41:44.225-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  0.91s           2025-06-05T18:41:36
+================================================================================
+[2025-06-05T14:42:14.297-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.05s           2025-06-05T18:42:07
+================================================================================
+[2025-06-05T14:42:44.359-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.10s           2025-06-05T18:42:39
+================================================================================
+[2025-06-05T14:43:14.416-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.03s           2025-06-05T18:43:10
+================================================================================
+[2025-06-05T14:43:44.419-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.09s           2025-06-05T18:43:41
+================================================================================
+[2025-06-05T14:44:14.504-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.16s           2025-06-05T18:44:12
+================================================================================
+[2025-06-05T14:44:44.558-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.15s           2025-06-05T18:44:43
+================================================================================
+[2025-06-05T14:45:14.887-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.02s           2025-06-05T18:45:14
+================================================================================
+[2025-06-05T14:45:45.954-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.02s           2025-06-05T18:45:45
+================================================================================
+[2025-06-05T14:46:17.142-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.14s           2025-06-05T18:46:17
+================================================================================
+[2025-06-05T14:46:41.295-0400] {manager.py:738} INFO - Searching for files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T14:46:41.296-0400] {manager.py:741} INFO - There are 1 files in /Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags
+[2025-06-05T14:46:48.274-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.09s           2025-06-05T18:46:48
+================================================================================
+[2025-06-05T14:47:19.334-0400] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/vionasanda/Projects/netflix-retention-project/airflow_home/dags/netflix_retention_dag.py                           1           0  1.01s           2025-06-05T18:47:19
+================================================================================
+[2025-06-05T14:47:38.747-0400] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15

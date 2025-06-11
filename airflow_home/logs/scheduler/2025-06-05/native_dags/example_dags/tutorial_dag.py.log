@@ -1,0 +1,39 @@
+[2025-06-05T13:46:52.223-0400] {processor.py:161} INFO - Started process (PID=46671) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:46:52.224-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-05T13:46:52.224-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:46:52.224-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:46:52.238-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:46:52.311-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:46:52.311-0400] {override.py:1769} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2025-06-05T13:46:52.315-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:46:52.315-0400] {override.py:1769} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2025-06-05T13:46:52.317-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:46:52.317-0400] {override.py:1769} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2025-06-05T13:46:52.317-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:46:52.317-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-05T13:46:52.321-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:46:52.321-0400] {dag.py:3058} INFO - Creating ORM DAG for tutorial_dag
+[2025-06-05T13:46:52.321-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:46:52.321-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-05T13:46:52.327-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.104 seconds
+[2025-06-05T13:48:15.735-0400] {processor.py:161} INFO - Started process (PID=46738) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:48:15.738-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-05T13:48:15.738-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:48:15.738-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:48:15.749-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:48:15.792-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:48:15.792-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-05T13:48:15.795-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:48:15.795-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-05T13:48:15.802-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2025-06-05T13:49:10.893-0400] {processor.py:161} INFO - Started process (PID=46797) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:49:10.894-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-05T13:49:10.894-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:10.894-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:49:10.907-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:49:10.950-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:10.950-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-05T13:49:10.953-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:10.953-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-05T13:49:10.960-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2025-06-05T13:50:03.336-0400] {processor.py:161} INFO - Started process (PID=46855) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:50:03.337-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-05T13:50:03.338-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:50:03.338-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:50:03.349-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T13:50:03.390-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:50:03.390-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-05T13:50:03.393-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:50:03.393-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-05T13:50:03.400-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-06-05T14:02:58.000-0400] {processor.py:161} INFO - Started process (PID=49520) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T14:02:58.002-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-05T14:02:58.002-0400] {logging_mixin.py:188} INFO - [2025-06-05T14:02:58.002-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T14:02:58.020-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-05T14:02:58.100-0400] {logging_mixin.py:188} INFO - [2025-06-05T14:02:58.100-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-05T14:02:58.104-0400] {logging_mixin.py:188} INFO - [2025-06-05T14:02:58.104-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-05T14:02:58.111-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.112 seconds

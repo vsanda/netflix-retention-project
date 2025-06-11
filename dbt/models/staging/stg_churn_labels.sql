@@ -6,5 +6,7 @@ with source as (
 select
     user_id::int,
     churned::boolean,
-    churn_date::date
+    churn_date::date,
+    created_at::timestamp
 from source
+

@@ -1,0 +1,18 @@
+[2025-06-05T13:47:36.594-0400] {processor.py:161} INFO - Started process (PID=46715) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-05T13:47:36.595-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-06-05T13:47:36.595-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:36.595-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-05T13:47:36.599-0400] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-05T13:47:36.684-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:36.684-0400] {override.py:1769} INFO - Created Permission View: can edit on DAG:latest_only
+[2025-06-05T13:47:36.688-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:36.688-0400] {override.py:1769} INFO - Created Permission View: can delete on DAG:latest_only
+[2025-06-05T13:47:36.690-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:36.690-0400] {override.py:1769} INFO - Created Permission View: can read on DAG:latest_only
+[2025-06-05T13:47:36.690-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:36.690-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-05T13:47:36.694-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:36.694-0400] {dag.py:3058} INFO - Creating ORM DAG for latest_only
+[2025-06-05T13:47:36.699-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:36.699-0400] {dag.py:3823} INFO - Setting next_dagrun for latest_only to 2025-06-05 12:00:00+00:00, run_after=2025-06-05 16:00:00+00:00
+[2025-06-05T13:47:36.706-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2025-06-05T13:49:25.558-0400] {processor.py:161} INFO - Started process (PID=46830) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-05T13:49:25.559-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-06-05T13:49:25.559-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:25.559-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-05T13:49:25.562-0400] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-05T13:49:25.608-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:25.608-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-05T13:49:25.616-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:25.616-0400] {dag.py:3823} INFO - Setting next_dagrun for latest_only to 2025-06-05 12:00:00+00:00, run_after=2025-06-05 16:00:00+00:00
+[2025-06-05T13:49:25.623-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds

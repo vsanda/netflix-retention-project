@@ -1,0 +1,18 @@
+[2025-06-05T13:47:49.602-0400] {processor.py:161} INFO - Started process (PID=46722) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-06-05T13:47:49.603-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-05T13:47:49.604-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:49.604-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-06-05T13:47:49.609-0400] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-06-05T13:47:49.690-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:49.690-0400] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-06-05T13:47:49.693-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:49.693-0400] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-06-05T13:47:49.695-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:49.695-0400] {override.py:1769} INFO - Created Permission View: can read on DAG:example_complex
+[2025-06-05T13:47:49.695-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:49.695-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-05T13:47:49.699-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:49.699-0400] {dag.py:3058} INFO - Creating ORM DAG for example_complex
+[2025-06-05T13:47:49.699-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:47:49.699-0400] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-05T13:47:49.705-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.103 seconds
+[2025-06-05T13:49:37.108-0400] {processor.py:161} INFO - Started process (PID=46837) to work on /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-06-05T13:49:37.110-0400] {processor.py:830} INFO - Processing file /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-05T13:49:37.110-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:37.110-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-06-05T13:49:37.115-0400] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-06-05T13:49:37.163-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:37.163-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-05T13:49:37.167-0400] {logging_mixin.py:188} INFO - [2025-06-05T13:49:37.167-0400] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-05T13:49:37.175-0400] {processor.py:183} INFO - Processing /Users/vionasanda/Projects/netflix-retention-project/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.067 seconds

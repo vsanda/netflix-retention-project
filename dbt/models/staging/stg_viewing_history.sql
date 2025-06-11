@@ -8,5 +8,6 @@ select
     user_id::int,
     video_id::int,
     watch_time::int,
-    date_watched::date
+    date_watched::date,
+    created_at::timestamp
 from source
