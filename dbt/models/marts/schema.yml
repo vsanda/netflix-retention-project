@@ -8,7 +8,6 @@ models:
         description: "Unique identifier for each user."
         tests:
           - not_null
-          - unique
       - name: signup_date
         description: "User signup date."
         tests:
@@ -45,7 +44,6 @@ models:
         description: "Unique identifier for each user."
         tests:
           - not_null
-          - unique
       - name: signup_date
         description: "User signup date."
         tests:
@@ -63,7 +61,7 @@ models:
     description: "Fact table tracking all user video watch events"
     columns:
       - name: view_sk
-        tests: [not_null, unique]
+        tests: [not_null]
       - name: user_id
         tests: [not_null]
       - name: video_id

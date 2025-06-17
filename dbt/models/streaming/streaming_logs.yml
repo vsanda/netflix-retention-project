@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: streaming_logs
+        description: "Raw user event logs"
+        freshness:
+          error_after: {count: 12, period: hour}
+        loaded_at_field: timestamp
+        columns:
+          - name: user_id
+            description: "The user who triggered the event"
+          - name: event_type
+            tests:
+              - accepted_values:
+                  values: ['play', 'pause', 'seek', 'stop', 'device_change']
+

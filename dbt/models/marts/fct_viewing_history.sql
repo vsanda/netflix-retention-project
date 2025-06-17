@@ -3,7 +3,7 @@ with source as (
 )
 
 select
-    {{ dbt_utils.generate_surrogate_key(['user_id', 'video_id', 'date_watched']) }} as view_sk,
+    {{ dbt_utils.generate_surrogate_key(['user_id', 'video_id', 'date_watched', 'created_at']) }} as view_sk,
     user_id,
     video_id,
     date_watched,

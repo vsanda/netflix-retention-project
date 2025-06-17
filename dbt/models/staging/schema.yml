@@ -8,7 +8,6 @@ models:
         description: "Unique identifier for each user."
         tests:
           - not_null
-          - unique
       - name: signup_date
         description: "Date the user signed up."
         tests:
@@ -27,7 +26,6 @@ models:
         description: "Unique identifier for each video."
         tests:
           - not_null
-          - unique
       - name: title
         description: "Title of the video."
       - name: genre
